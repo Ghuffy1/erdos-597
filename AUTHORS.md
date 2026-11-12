@@ -12,6 +12,11 @@ credit applies to the team's original mathematical and project-specific
 formalization work. Prior mathematical results and imported libraries retain
 their authors' credit.
 
+The submission follows the team route described in [SUBMISSION.md](SUBMISSION.md).
+Ghuffy1 is the proposed submission representative, subject to personal
+confirmation by all four members. Financial authority requires a separate
+collective confirmation.
+
 The account-to-author mapping and equal-contribution declaration were supplied
 by the user during private preparation. They await the prize team's contribution and
 identity review. The contribution records include the corresponding submitter's

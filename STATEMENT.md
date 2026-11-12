@@ -35,7 +35,9 @@ Corollary 1.3 cover the finite question, including the fixed finite target.
 The supplementary historical biclique discussion from working notes is outside
 the submitted theorem scope and supplies no premise of these proofs.
 
-JSP-000484 is the proposed catalog correspondence. The historical entry at
-[7be685ccb752500ddb47b714db8948e5666a4ce1](https://github.com/TheJustinSunPrize/awards/blob/7be685ccb752500ddb47b714db8948e5666a4ce1/problems/catalog-0401-0500.md#jsp-000484)
-corroborates the ordinal-partition mapping. The current abbreviated entry is
-submitted for exact-statement review with the original source above.
+JSP-000484 is the catalog correspondence documented in [SUBMISSION.md](SUBMISSION.md).
+The historical entry at
+[7be685ccb752500ddb47b714db8948e5666a4ce1](https://github.com/TheJustinSunPrize/awards/blob/7be685ccb752500ddb47b714db8948e5666a4ce1/problems/catalog-0401-0500.md#JSP-000484)
+corroborates the ordinal-partition mapping. The renumbering history and adjacent
+numbered problems provide further support. The original source above and the
+formal correspondence remain part of JSP's mathematical review.

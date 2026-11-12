@@ -19,6 +19,7 @@ for both original clauses of Erdős problem 597.
 - [Reproduction instructions](REPRODUCE.md).
 - [Verification evidence](verification/README.md).
 - [Authors and contribution credit](AUTHORS.md).
+- [Catalog identity and team submission route](SUBMISSION.md).
 - [Prior work](RELATED_WORK.md) and [third-party notices](NOTICE.md).
 
 ## Authorship
@@ -31,9 +32,9 @@ exploration, proof development, verification, and exposition.
 
 ## Prize submission scope
 
-The proposed catalog correspondence is **JSP-000484 / Erdős 597**. The historical
-catalog supports this mapping. The current catalog description is abbreviated,
-so exact statement correspondence is supplied for maintainer review.
+The documented catalog correspondence is **JSP-000484 / Erdős 597**. Its
+renumbering history, mathematical subject and historical attributions establish
+the crosswalk described in [SUBMISSION.md](SUBMISSION.md).
 At the recorded rules revision, the JSP entry is Open, the formal-proof field is
 No, and both claim roles are Unavailable. This repository is preparation for
 review. Prize acceptance, recipient identity and priority await independent review.
