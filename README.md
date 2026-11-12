@@ -24,7 +24,7 @@ for both original clauses of Erdős problem 597.
 
 ## Authorship
 
-The intended repository owner and corresponding submitter is **Ghuffy1**.
+The repository owner and corresponding submitter is **Ghuffy1**.
 Will Howe (H0W4RD-dev), Grant Huffman (Ghuffy1), Jensen Kohlmeyer (JENW1N), and
 Liam Kruer (lkruer) are credited as equal contributors. Names in the paper use
 alphabetical surname order. OpenAI's ChatGPT assisted with mathematical
@@ -38,3 +38,5 @@ the crosswalk described in [SUBMISSION.md](SUBMISSION.md).
 At the recorded rules revision, the JSP entry is Open, the formal-proof field is
 No, and both claim roles are Unavailable. This repository is preparation for
 review. Prize acceptance, recipient identity and priority await independent review.
+
+The [final offline audit](verification/final-offline-audit.md) passed before submission.

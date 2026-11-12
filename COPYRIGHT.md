@@ -1,9 +1,7 @@
 # Rights
 
 Copyright 2026 Will Howe, Grant Huffman, Jensen Kohlmeyer, and Liam Kruer for
-their original contributions. All rights are reserved pending the authors'
-release decision. This preparation does not grant a new public license for
-the team's original material.
+their original contributions. All rights reserved.
 
 Third-party material retains its existing licenses and attribution. The
 vendored Flypitch material and the adapted Formal Conjectures statement are

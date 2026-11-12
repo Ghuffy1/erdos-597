@@ -1,0 +1,3105 @@
+⚠ [3136/3167] Replayed Flypitch.Compat.Core
+warning: Flypitch\Compat\Core.lean: imports `Mathlib.Data.Fin.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\Compat\Core.lean: imports `Mathlib.Logic.Function.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\Compat\Core.lean: imports `Mathlib.Order.Lattice` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3137/3167] Replayed Flypitch.FOL.Syntax
+warning: Flypitch\FOL\Syntax.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3138/3167] Replayed Flypitch.FOL.Formula
+warning: Flypitch/FOL/Formula.lean:299:29: This simp argument is unused:
+  subst_formula
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lift_formula_at, lift_at_subst_term_medium, h₁, h₂]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3139/3167] Replayed Flypitch.FOL.Proof
+warning: Flypitch\FOL\Proof.lean: imports `Mathlib.Data.Set.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\FOL\Proof.lean: imports `Mathlib.Data.Set.Image` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch/FOL/Proof.lean:285:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [subst_formula_equal, lift_formula1, lift_formula]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/FOL/Proof.lean:292:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [subst_formula_equal, lift_formula1, lift_formula]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/FOL/Proof.lean:300:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [subst_formula_equal, lift_term1_subst_term]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3140/3167] Replayed Flypitch.FOL.Semantics
+warning: Flypitch\FOL\Semantics.lean: imports `Mathlib.Data.Set.Image` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch/FOL/Semantics.lean:274:24: Variable name `g` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _g
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Semantics.lean:296:30: Variable name `g` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _g
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Semantics.lean:338:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [realize_formula] at hbot
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3141/3167] Replayed Flypitch.FOL.Theory
+warning: Flypitch/FOL/Theory.lean:111:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [subst_term, subst_realize, hlt]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/FOL/Theory.lean:164:29: This simp argument is unused:
+  subst_formula
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lift_formula_at, lift_subst_term_cancel t₁ n, lift_subst_term_cancel t₂ n]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/FOL/Theory.lean:613:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [realize_formula] at hFalse
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3142/3167] Replayed Flypitch.FOL.Bounded
+warning: Flypitch/FOL/Bounded.lean:325:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Bounded.lean:350:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Bounded.lean:370:19: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Bounded.lean:370:23: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/FOL/Bounded.lean:440:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3144/3167] Replayed Flypitch.BVTauto
+warning: Flypitch\BVTauto.lean: imports `Mathlib.Order.CompleteBooleanAlgebra` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\BVTauto.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3152/3167] Replayed Flypitch.PSetOrdinal
+warning: Flypitch\PSetOrdinal.lean: imports `Mathlib.SetTheory.Cardinal.Aleph` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\PSetOrdinal.lean: imports `Mathlib.SetTheory.Cardinal.Regular` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\PSetOrdinal.lean: imports `Mathlib.SetTheory.ZFC.Ordinal` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3154/3167] Replayed Flypitch.BFOL
+warning: Flypitch/BFOL.lean:92:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:112:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:142:17: Variable name `n` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _n
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:142:21: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:142:23: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:168:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:200:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:200:22: Variable name `xs'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:190:6: Unused tactic linter: `change
+  (⨅ n : Nat, S.eq (v n) (v' n)) ⊓ (xs.map2 S.eq xs').fInf ≤
+    (⨅ n : Nat, S.eq (v n) (v' n)) ⊓
+      (S.eq (boolean_realize_term v t₂ []) (boolean_realize_term v' t₂ []) ⊓ (xs.map2 S.eq xs').fInf)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BFOL.lean:238:17: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:238:21: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:270:22: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:270:26: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:309:17: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:309:19: Variable name `n` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _n
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:309:23: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:309:25: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:308:39: This simp argument is unused:
+  Nat.add_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lift_term_def, lift_term2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:352:17: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:352:19: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:352:21: Variable name `m` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _m
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:352:25: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:426:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [boolean_realize_formula]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/BFOL.lean:457:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:457:22: Variable name `xs'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:503:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:554:63: This simp argument is unused:
+  lift_term
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [bounded_preterm.lift1, bounded_preterm.liftAt, lift_term_at]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:556:63: This simp argument is unused:
+  lift_term
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [bounded_preterm.lift1, bounded_preterm.liftAt, lift_term_at, boolean_realize_bounded_term]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:590:19: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:590:23: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:663:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:712:19: Variable name `xs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _xs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BFOL.lean:753:16: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [subst_realize]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:803:18: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₀, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:863:18: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₀, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:872:18: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₀, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:887:22: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₀, hk', subst_realize]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:900:14: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:903:14: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₂, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:910:24: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:913:24: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, hk, hk', S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:913:40: This simp argument is unused:
+  hk'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, boundedVal, hk, S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:914:20: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:944:14: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:947:14: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₂, hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:954:24: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:958:28: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:961:28: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, hk, hk', S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:961:44: This simp argument is unused:
+  hk'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, boundedVal, hk, S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BFOL.lean:962:20: This simp argument is unused:
+  boundedVal
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [v₁, v₂, hk, S.eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3155/3167] Replayed Flypitch.BVMExtras
+warning: Flypitch\BVMExtras.lean: imports `Mathlib.Order.Zorn` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch/BVMExtras.lean:263:4: Unused tactic linter: `change Γ ≤ insert x ({ y } : bSet 𝔹) ⊆ᴮ insert y ({ x } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:269:4: Unused tactic linter: `change Γ ≤ insert y ({ x } : bSet 𝔹) ⊆ᴮ insert x ({ y } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:341:4: Unused tactic linter: `change x =ᴮ z ≤ insert x ({ y } : bSet 𝔹) =ᴮ insert z ({ y } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:349:4: Unused tactic linter: `change y =ᴮ z ≤ insert x ({ y } : bSet 𝔹) =ᴮ insert x ({ z } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:395:6: Unused tactic linter: `change Γ ⊓ x.bval i ≤ x.func i ∈ᴮ binary_union ({ x } : bSet 𝔹) x` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:448:4: Unused tactic linter: `change Γ ≤ insert x ({ y } : bSet 𝔹) =ᴮ insert z ({ y } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:455:4: Unused tactic linter: `change Γ ≤ insert x ({ y } : bSet 𝔹) =ᴮ insert x ({ z } : bSet 𝔹)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:870:4: Unused tactic linter: `change Γ ≤ ({check x, check y} : bSet 𝔹) ⊆ᴮ check ({ x, y } : pSet.{u})` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:918:4: Unused tactic linter: `change
+  Γ ⊓ (prod (check x) (check y)).bval ij ≤ (prod (check x) (check y)).func ij ∈ᴮ check (pSet.prod x y)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:5775:6: Try this: intro Γ' hLe z₁ hz₁ z₂ hz₂ w₁ hw₁ w₂ hw₂ hpr₁ hpr₂
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+warning: Flypitch/BVMExtras.lean:5867:36: This simp argument is unused:
+  inf_top_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h_func, bv_eq_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BVMExtras.lean:5893:2: Left-hand side of simp theorem has a variable as head symbol. This means the theorem will be tried on every simp step, which can be expensive. This may be acceptable for `local` or `scoped` simp lemmas.
+Use `set_option warning.simp.varHead false` to disable this warning.
+warning: Flypitch/BVMExtras.lean:5924:11: `exists_wellOrder` has been deprecated: Use `exists_wellFoundedLT` instead
+
+Hint: Replace the deprecated name:
+  e̵x̵i̵s̵t̵s̵_̵w̵e̵l̵l̵O̵r̵d̵e̵r̵e̲x̲i̲s̲t̲s̲_̲w̲e̲l̲l̲F̲o̲u̲n̲d̲e̲d̲L̲T̲
+warning: Flypitch/BVMExtras.lean:5928:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/BVMExtras.lean:6041:47: This simp argument is unused:
+  B_small_witness_spec ϕ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [w]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/BVMExtras.lean:6190:5: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BVMExtras.lean:6377:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/BVMExtras.lean:6385:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/BVMExtras.lean:6447:41: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hNonempty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/BVMExtras.lean:6479:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/BVMExtras.lean:6550:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/BVMExtras.lean:7103:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/BVMExtras.lean:7103:53: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Flypitch/BVMExtras.lean:7103:53: Unused tactic linter: `simp [check_type]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/BVMExtras.lean:7177:34: Variable name `H` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _H
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/BVMExtras.lean:8444:10: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [mem_empty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3156/3167] Replayed Flypitch.RegularOpenAlgebra
+warning: Flypitch\RegularOpenAlgebra.lean: imports `Mathlib.Topology.Sets.Opens` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\RegularOpenAlgebra.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3157/3167] Replayed Flypitch.SetTheory
+warning: Flypitch\SetTheory.lean: imports `Mathlib.SetTheory.Cardinal.Regular` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\SetTheory.lean: imports `Mathlib.Topology.Bases` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\SetTheory.lean: imports `Mathlib.Topology.Constructions` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\SetTheory.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch/SetTheory.lean:109:42: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [orderType]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:144:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [nr]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:210:8: `Cardinal.iSup_lt_ord_of_isRegular` has been deprecated: Use `Ordinal.iSup_lt_of_lt_cof` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u} {f : α → Ordinal.{u}} {a : Ordinal.{u}}, #α < a.cof → (∀ (i : α), f i < a) → ⨆ i, f i < a
+instead of
+  ∀ {ι : Type u_1} {f : ι → Ordinal.{u_1}} {c : Cardinal.{u_1}},
+    c.IsRegular → #ι < c → (∀ (i : ι), f i < c.ord) → iSup f < c.ord
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.iSup_lt_ord_of_isRegular` to `Ordinal.iSup_lt_of_lt_cof x`).
+warning: Flypitch/SetTheory.lean:1102:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1125:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1123:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1306:4: Unused tactic linter: `change ℵ₀ < Cardinal.mk (Set.range fun x : t => (x.1 : ι))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Flypitch/SetTheory.lean:1339:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1340:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1346:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1355:18: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1355:37: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1365:5: Ambiguous namespace `Set`: it is interpreted as `_root_.Flypitch.Set` because this `open` occurs inside `namespace Flypitch`, while `_root_.Set` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.Flypitch.Set`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+warning: Flypitch/SetTheory.lean:1386:19: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hEmpty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1398:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hEmpty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1377:0: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_nonempty`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Flypitch/SetTheory.lean:1377:8: Overlapping instance parameters in `countable_chain_condition_of_nonempty`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Flypitch/SetTheory.lean:1405:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1401:0: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_countable`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Flypitch/SetTheory.lean:1401:8: Overlapping instance parameters in `countable_chain_condition_of_countable`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Flypitch/SetTheory.lean:1430:0: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_topological_basis`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Flypitch/SetTheory.lean:1430:8: Overlapping instance parameters in `countable_chain_condition_of_topological_basis`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Flypitch/SetTheory.lean:1474:0: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_separable_space`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Flypitch/SetTheory.lean:1474:8: Overlapping instance parameters in `countable_chain_condition_of_separable_space`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: Flypitch/SetTheory.lean:1576:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsUniv a hcoord]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1580:48: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1582:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [s', hEq, hsUniv a hai]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1596:20: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsUniv a hcoord]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1597:42: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Flypitch/SetTheory.lean:1601:44: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Flypitch/SetTheory.lean:1656:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1695:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1728:5: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1738:15: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1741:12: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1784:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:1840:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1950:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:1973:72: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1983:74: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1994:35: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:1995:28: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2031:37: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2032:30: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2048:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2063:54: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2072:26: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2074:9: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2081:54: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2090:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2099:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:2146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:2181:27: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2188:56: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2188:16: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2190:57: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2190:17: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2202:27: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2213:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:2225:47: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2230:27: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2231:63: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2231:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/SetTheory.lean:2233:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Cardinal.lift_id]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/SetTheory.lean:2246:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2259:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+warning: Flypitch/SetTheory.lean:2273:45: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+⚠ [3158/3167] Replayed Flypitch.CantorSpace
+warning: Flypitch/CantorSpace.lean:408:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/CantorSpace.lean:409:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3159/3167] Replayed Flypitch.AlephOne
+warning: Flypitch/AlephOne.lean:404:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3160/3167] Replayed Flypitch.Forcing
+warning: Flypitch/Forcing.lean:74:50: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hInfBot]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Forcing.lean:305:40: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Flypitch/Forcing.lean:362:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [mk_func]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Forcing.lean:357:21: This simp argument is unused:
+  mk_func
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mk_bval, χ, le_iff_subset', ι, cantor_space.principal_open]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/Forcing.lean:357:52: This simp argument is unused:
+  cantor_space.principal_open
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mk_bval, mk_func, χ, le_iff_subset', ι]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/Forcing.lean:435:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Flypitch/Forcing.lean:389:5: Variable name `H_nonempty` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _H_nonempty
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/Forcing.lean:458:26: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/Forcing.lean:458:41: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/Forcing.lean:1070:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/Forcing.lean:989:5: Variable name `H_infinite` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _H_infinite
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Flypitch/Forcing.lean:1211:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [pSet.aleph_one]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Forcing.lean:1258:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [pSet.aleph_one, pSet.aleph_two]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Forcing.lean:1260:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [pSet.aleph_one]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3162/3167] Replayed Flypitch.Collapse
+warning: Flypitch\Collapse.lean: imports `Mathlib.Data.PFun` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch\Collapse.lean: imports `Mathlib.Topology.Bases` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Flypitch/Collapse.lean:140:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Flypitch/Collapse.lean:330:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [union, union_f, hp, hEq]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Collapse.lean:337:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [union, union_f, hp, hEq]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/Collapse.lean:401:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/Collapse.lean:414:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/Collapse.lean:496:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/Collapse.lean:610:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Flypitch/Collapse.lean:632:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3163/3167] Replayed Flypitch.ForcingCH
+warning: Flypitch/ForcingCH.lean:29:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hUnion]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:198:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₁ p.1]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:223:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₂ p.2]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:260:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₁ i]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:271:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₁ i]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:272:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₂ j]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:387:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₂ j]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:398:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₁ i]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:399:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hBVal₂ j]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Flypitch/ForcingCH.lean:474:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Flypitch/ForcingCH.lean:487:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [← pSet.aleph_one_eq_succ_aleph_zero] at hLt'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3164/3167] Replayed Flypitch.ZFC
+warning: Flypitch/ZFC.lean:358:4: The namespace `ZFC` is duplicated in the declaration `Flypitch.ZFC.ZFC`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+warning: Flypitch/ZFC.lean:436:29: This simp argument is unused:
+  bounded_preterm.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [var1, var, bd_var]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:651:32: This simp argument is unused:
+  inf_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeF, is_func', inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:651:42: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeF, is_func', inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:651:57: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeF, is_func', inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:656:35: This simp argument is unused:
+  inf_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeRevF, is_func', inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:656:45: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeRevF, is_func', inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:656:60: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimeRevF, is_func', inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:667:36: This simp argument is unused:
+  inf_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [injectsIntoF, injects_into, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:667:46: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [injectsIntoF, injects_into, inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:667:61: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [injectsIntoF, injects_into, inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:678:49: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [atMostF, larger_than, is_surj, inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:683:58: This simp argument is unused:
+  inf_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimePowersetOmegaRevF, is_func', is_total, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:683:68: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimePowersetOmegaRevF, is_func', is_total, inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:683:83: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isFuncPrimePowersetOmegaRevF, is_func', is_total, inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:688:54: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [atMostOmegaF, larger_than, is_surj, inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:693:62: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [atMostPowersetOmegaF, larger_than, is_surj, inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:696:55: This simp argument is unused:
+  sup_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [CH_f, CH₂, compl_iSup, lattice.imp, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:713:36: This simp argument is unused:
+  lattice.imp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [axiomOfEmptyset, mem_empty]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:815:47: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert₂,
+    boolean_realize_bounded_formula_liftAt_insert₃, boolean_realize_bounded_formula_subst_open,
+    boolean_realize_collection_subst_liftAt3_raw, boolean_realize_collection_subst_liftAt3_named,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:816:8: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert₂
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₃, boolean_realize_bounded_formula_subst_open,
+    boolean_realize_collection_subst_liftAt3_raw, boolean_realize_collection_subst_liftAt3_named,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:817:8: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert₃
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_subst_open,
+    boolean_realize_collection_subst_liftAt3_raw, boolean_realize_collection_subst_liftAt3_named,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:818:8: This simp argument is unused:
+  boolean_realize_bounded_formula_subst_open
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_collection_subst_liftAt3_raw, boolean_realize_collection_subst_liftAt3_named,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:819:8: This simp argument is unused:
+  boolean_realize_collection_subst_liftAt3_raw
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_named,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:820:8: This simp argument is unused:
+  boolean_realize_collection_subst_liftAt3_named
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_raw,
+    boolean_realize_collection_subst_liftAt3_coe_mk, boolean_realize_collection_subst_liftAt3_of_eq,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:822:8: This simp argument is unused:
+  boolean_realize_collection_subst_liftAt3_of_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_raw,
+    boolean_realize_collection_subst_liftAt3_named, boolean_realize_collection_subst_liftAt3_coe_mk,
+    collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst, inf_comm, inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:823:8: This simp argument is unused:
+  collectionSubstFormula
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_raw,
+    boolean_realize_collection_subst_liftAt3_named, boolean_realize_collection_subst_liftAt3_coe_mk,
+    boolean_realize_collection_subst_liftAt3_of_eq, bounded_preformula.fst, bounded_preterm.fst, inf_comm,
+    inf_left_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:824:18: This simp argument is unused:
+  inf_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_raw,
+    boolean_realize_collection_subst_liftAt3_named, boolean_realize_collection_subst_liftAt3_coe_mk,
+    boolean_realize_collection_subst_liftAt3_of_eq, collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst,
+    inf_comm, inf_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:824:33: This simp argument is unused:
+  inf_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [lattice.imp, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    boolean_realize_bounded_formula_subst_open, boolean_realize_collection_subst_liftAt3_raw,
+    boolean_realize_collection_subst_liftAt3_named, boolean_realize_collection_subst_liftAt3_coe_mk,
+    boolean_realize_collection_subst_liftAt3_of_eq, collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst,
+    inf_comm, inf_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Flypitch/ZFC.lean:815:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3166/3185] Built Erdos597Object (9.9s)
+info: Erdos597Object.lean:259:0: Erdos597Object.finiteAssertion : sentence L_ZFC
+info: Erdos597Object.lean:260:0: 'Erdos597Object.finiteAssertion' depends on axioms: [propext, Quot.sound]
+info: Erdos597Object.lean:261:0: Erdos597Object.martinAxiomAlephOne : sentence L_ZFC
+info: Erdos597Object.lean:262:0: Erdos597Object.finiteIndependence : Prop
+info: Erdos597Object.lean:263:0: Erdos597Object.relativeFiniteIndependence : Prop
+⚠ [3192/3238] Replayed PartiteConstruction.Relational.Basic
+warning: PartiteConstruction\Relational\Basic.lean: imports `Mathlib.Data.Fintype.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Relational\Basic.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Relational\Basic.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3195/3238] Replayed PartiteConstruction.Relational.FreeAmalgamationClass
+warning: PartiteConstruction\Relational\FreeAmalgamationClass.lean: imports `Mathlib.Data.Fintype.Card` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:71:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:127:39: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hval]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:142:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:104:4: Unused tactic linter: `change x.1 = b` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:110:4: Unused tactic linter: `change x.1 = a` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:194:10: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:196:10: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:198:10: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:199:10: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Relational/FreeAmalgamationClass.lean:217:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3196/3238] Replayed PartiteConstruction.Relational.Attachment
+warning: PartiteConstruction/Relational/Attachment.lean:118:10: Unused tactic linter: `change a.1 = copyMap B S D f i x0.1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3202/3238] Replayed SuccessorTree.StarLine
+warning: SuccessorTree\StarLine.lean: imports `Mathlib.Data.Fintype.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\StarLine.lean: imports `Mathlib.Data.List.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3204/3238] Replayed SuccessorTree.HalesJewett.Forcing
+warning: SuccessorTree\HalesJewett\Forcing.lean: imports `Mathlib.Data.Set.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\Forcing.lean: imports `Mathlib.Data.Fintype.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/Forcing.lean:75:52: This simp argument is unused:
+  not_not
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Large, Avoids, not_forall, not_exists]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SuccessorTree/HalesJewett/Forcing.lean:191:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [partition]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3205/3238] Replayed SuccessorTree.HalesJewett.Composition
+warning: SuccessorTree\HalesJewett\Composition.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3206/3238] Replayed SuccessorTree.HalesJewett.AlphabetLift
+warning: SuccessorTree\HalesJewett\AlphabetLift.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/AlphabetLift.lean:107:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: SuccessorTree/HalesJewett/AlphabetLift.lean:178:12: This simp argument is unused:
+  nestedSubspace
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prefixApply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3207/3238] Replayed SuccessorTree.Support
+warning: SuccessorTree\Support.lean: imports `Mathlib.Data.Finset.Dedup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3208/3238] Replayed SuccessorTree.HalesJewett.AlphabetEquiv
+warning: SuccessorTree\HalesJewett\AlphabetEquiv.lean: imports `Mathlib.Data.Fintype.Option` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\AlphabetEquiv.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3210/3238] Replayed SuccessorTree.HalesJewett.ForcingLemmaTwo
+warning: SuccessorTree\HalesJewett\ForcingLemmaTwo.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/ForcingLemmaTwo.lean:120:4: Unused tactic linter: `change W'.eval (c :: U.eval v) ∈ A` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3211/3238] Replayed SuccessorTree.HalesJewett.ForcingFusion
+warning: SuccessorTree\HalesJewett\ForcingFusion.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3213/3238] Replayed SuccessorTree.HalesJewett.LineSchedule
+warning: SuccessorTree\HalesJewett\LineSchedule.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\LineSchedule.lean: imports `Mathlib.Data.List.OfFn` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\LineSchedule.lean: imports `Mathlib.Data.List.GetD` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\LineSchedule.lean: imports `Mathlib.Data.Nat.Find` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\LineSchedule.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/LineSchedule.lean:254:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [lineBucketSize]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3214/3238] Replayed SuccessorTree.HalesJewett.FiniteVariableWord
+warning: SuccessorTree\HalesJewett\FiniteVariableWord.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/FiniteVariableWord.lean:189:40: This simp argument is unused:
+  variableIndices
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [IndexedSymbol.fromLine, parameterCount, ih, List.replicate_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3215/3238] Replayed SuccessorTree.HalesJewett.GreedyLimit
+warning: SuccessorTree\HalesJewett\GreedyLimit.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3216/3238] Replayed SuccessorTree.HalesJewett.ForcingLemmaOne
+warning: SuccessorTree\HalesJewett\ForcingLemmaOne.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\ForcingLemmaOne.lean: imports `Mathlib.Data.List.OfFn` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\ForcingLemmaOne.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/ForcingLemmaOne.lean:32:26: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3217/3238] Replayed SuccessorTree.HalesJewett.ForcingMaximal
+warning: SuccessorTree\HalesJewett\ForcingMaximal.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3218/3238] Replayed SuccessorTree.HalesJewett.ForcingFusionLimit
+warning: SuccessorTree\HalesJewett\ForcingFusionLimit.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3219/3238] Replayed SuccessorTree.HalesJewett.ForcingProposition
+warning: SuccessorTree\HalesJewett\ForcingProposition.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3220/3238] Replayed SuccessorTree.HalesJewett.AlphabetInduction
+warning: SuccessorTree\HalesJewett\AlphabetInduction.lean: imports `Mathlib.Data.Fintype.Option` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\AlphabetInduction.lean: imports `Mathlib.Data.Fintype.Pigeonhole` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\AlphabetInduction.lean: imports `Mathlib.Data.Fintype.EquivFin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree\HalesJewett\AlphabetInduction.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:182:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Nat.ne_of_gt hd]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:236:2: Try this: intro κ _instκ colour
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:416:2: Try this: intro hα κ hκ colour
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:432:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:433:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:435:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SuccessorTree/HalesJewett/AlphabetInduction.lean:443:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3233/3238] Replayed PartiteConstruction.Iterated.ControlCompletion
+warning: PartiteConstruction/Iterated/ControlCompletion.lean:126:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/ControlCompletion.lean:163:21: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [xs]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3234/3238] Replayed PartiteConstruction.Iterated.FinalAttachment
+warning: PartiteConstruction/Iterated/FinalAttachment.lean:428:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalAttachment.lean:429:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3241/3312] Replayed PartiteConstruction.Iterated.ProjectedGlue
+warning: PartiteConstruction/Iterated/ProjectedGlue.lean:85:6: Unused tactic linter: `change pE (sE d) = z.1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PartiteConstruction/Iterated/ProjectedGlue.lean:99:6: Unused tactic linter: `change pF (sF d) = z.1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3242/3312] Replayed PartiteConstruction.Iterated.GenericProjectedAttachmentStep
+warning: PartiteConstruction/Iterated/GenericProjectedAttachmentStep.lean:90:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/GenericProjectedAttachmentStep.lean:139:12: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/GenericProjectedAttachmentStep.lean:214:12: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/GenericProjectedAttachmentStep.lean:215:12: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/GenericProjectedAttachmentStep.lean:216:12: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3243/3312] Replayed PartiteConstruction.Structure.Basic
+warning: PartiteConstruction\Structure\Basic.lean: imports `Mathlib.Data.Fintype.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Structure\Basic.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Structure\Basic.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction/Structure/Basic.lean:162:44: Variable name `hS` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hS
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3244/3312] Replayed PartiteConstruction.Structure.Relationalize
+warning: PartiteConstruction\Structure\Relationalize.lean: imports `Mathlib.Data.Fin.Tuple.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3253/3312] Replayed PartiteConstruction.Partite.InducedConstruction
+warning: PartiteConstruction/Partite/InducedConstruction.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Partite/InducedConstruction.lean:165:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3254/3312] Replayed PartiteConstruction.Iterated.InducedTraceLocal
+warning: PartiteConstruction/Iterated/InducedTraceLocal.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3256/3312] Replayed PartiteConstruction.Iterated.SparseningIteration
+warning: PartiteConstruction/Iterated/SparseningIteration.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/SparseningIteration.lean:52:6: Variable name `S` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _S
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PartiteConstruction/Iterated/SparseningIteration.lean:85:6: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PartiteConstruction/Iterated/SparseningIteration.lean:122:6: Variable name `S` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _S
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3260/3312] Replayed PartiteConstruction.Iterated.IndexedTarget
+warning: PartiteConstruction/Iterated/IndexedTarget.lean:86:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PartiteConstruction/Iterated/IndexedTarget.lean:96:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PartiteConstruction/Iterated/IndexedTarget.lean:103:30: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3261/3312] Replayed PartiteConstruction.Iterated.UniformAttachment
+warning: PartiteConstruction/Iterated/UniformAttachment.lean:96:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3262/3312] Replayed PartiteConstruction.Iterated.AttachmentTrace
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:58:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:58:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:63:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:63:20: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:97:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/AttachmentTrace.lean:101:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3263/3312] Replayed PartiteConstruction.Iterated.UniformAttachmentBound
+warning: PartiteConstruction/Iterated/UniformAttachmentBound.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/UniformAttachmentBound.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/UniformAttachmentBound.lean:148:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/UniformAttachmentBound.lean:149:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3265/3312] Replayed PartiteConstruction.Iterated.FinalCompletion
+warning: PartiteConstruction/Iterated/FinalCompletion.lean:181:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalCompletion.lean:216:7: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3267/3312] Replayed PartiteConstruction.Iterated.FinalSupportStage
+warning: PartiteConstruction/Iterated/FinalSupportStage.lean:102:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalSupportStage.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalSupportStage.lean:105:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalSupportStage.lean:107:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/FinalSupportStage.lean:225:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3269/3312] Replayed PartiteConstruction.Iterated.SparseningUniformFinal
+warning: PartiteConstruction/Iterated/SparseningUniformFinal.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/SparseningUniformFinal.lean:41:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/SparseningUniformFinal.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/SparseningUniformFinal.lean:77:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Iterated/SparseningUniformFinal.lean:79:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3271/3312] Replayed PartiteConstruction.Relational.Order
+warning: PartiteConstruction\Relational\Order.lean: imports `Mathlib.Order.Prod.Lex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3275/3312] Replayed PartiteConstruction.Ramsey.Finite
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Data.Finset.Card` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Data.Finset.Sort` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Data.Fin.Tuple.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Combinatorics.Pigeonhole` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PartiteConstruction\Ramsey\Finite.lean: imports `Mathlib.Order.Monotone.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3279/3319] Built Erdos597Object.Semantics (13s)
+warning: Erdos597Object/Semantics.lean:118:4: This simp argument is unused:
+  Flypitch.fol.bfol.boolean_realize_bounded_term_mk_fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Flypitch.ZFC.pair, Flypitch.fol.bd_apps, Flypitch.fol.bd_app, Flypitch.fol.bd_func,
+    Flypitch.fol.bfol.boolean_realize_bounded_term, pairValue]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/Semantics.lean:127:4: This simp argument is unused:
+  Flypitch.fol.bfol.boolean_realize_bounded_term_mk_fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Flypitch.ZFC.mem, Flypitch.fol.bd_apps_rel, Flypitch.fol.bd_apprel, Flypitch.fol.bd_rel,
+    Flypitch.fol.bfol.boolean_realize_bounded_formula, memberValue]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/Semantics.lean:206:49: This simp argument is unused:
+  allMember
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cartesianProduct, cartesianProductValue, allSet, existsMember, existsSet, bd_biimp, lattice.imp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3280/3319] Replayed Erdos597Object.SetCodes
+warning: Erdos597Object\SetCodes.lean: imports `Mathlib.SetTheory.ZFC.Ordinal` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object\SetCodes.lean: imports `Mathlib.Combinatorics.SimpleGraph.Clique` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object\SetCodes.lean: imports `Mathlib.Combinatorics.SimpleGraph.Maps` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object\SetCodes.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/SetCodes.lean:17:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [naturalSet]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos597Object/SetCodes.lean:41:12: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: Erdos597Object/SetCodes.lean:94:0: 'Erdos597Object.SetCodes.naturalSet_mem_omega' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/SetCodes.lean:95:0: 'Erdos597Object.SetCodes.finiteEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/SetCodes.lean:96:0: 'Erdos597Object.SetCodes.pair_mem_edgeSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/SetCodes.lean:97:0: 'Erdos597Object.SetCodes.decodedGraph_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/SetCodes.lean:98:0: 'Erdos597Object.SetCodes.decodedGraph_cliqueFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3281/3338] Replayed PartiteConstruction.Ramsey.Ordered
+warning: PartiteConstruction/Ramsey/Ordered.lean:61:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Ramsey/Ordered.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Ramsey/Ordered.lean:108:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [tuple, βemb, βfun]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: PartiteConstruction/Ramsey/Ordered.lean:124:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3282/3338] Built Erdos597Object.SetInterpretation (14s)
+warning: Erdos597Object/SetInterpretation.lean:107:13: This simp argument is unused:
+  and_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [graphValue, relationBetweenValue_set, or_iff_not_imp_left, iff_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3284/3479] Replayed PartiteConstruction.Ramsey.FreeAmalgamation
+warning: PartiteConstruction/Ramsey/FreeAmalgamation.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Ramsey/FreeAmalgamation.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Ramsey/FreeAmalgamation.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: PartiteConstruction/Ramsey/FreeAmalgamation.lean:68:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3285/3479] Built Erdos597Object.FinitePresentation (9.8s)
+⚠ [3290/3508] Replayed Erdos597
+warning: Erdos597.lean: imports `Mathlib.SetTheory.Cardinal.Regular` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.SetTheory.Cardinal.Arithmetic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Combinatorics.SimpleGraph.Clique` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Combinatorics.SimpleGraph.Copy` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Data.List.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Tactic.Push` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Order.Prod.Lex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Data.Fintype.Pigeonhole` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Data.Finset.Sort` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Order.PFilter` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Order.Zorn` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean: imports `Mathlib.Order.Interval.Finset.Nat` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597.lean:653:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:664:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:694:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:695:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:1442:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:1443:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:1444:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:1454:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597.lean:1455:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3291/3508] Built Erdos597Object.SetFunctions (11s)
+⚠ [3293/3508] Replayed Erdos597Object.FiniteCodeBridge
+warning: Erdos597Object/FiniteCodeBridge.lean:45:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/FiniteCodeBridge.lean:46:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: Erdos597Object/FiniteCodeBridge.lean:53:0: Erdos597.ordinalGraphRamsey_comap_equiv.{u_1, u_2} {V : Type u_1} {W : Type u_2} (alpha beta : Ordinal.{0}) (e : V ≃ W)
+  (G : SimpleGraph W) : OrdinalGraphRamsey alpha beta (SimpleGraph.comap (⇑e) G) ↔ OrdinalGraphRamsey alpha beta G
+info: Erdos597Object/FiniteCodeBridge.lean:54:0: Erdos597.finite_universal_iff_fin_codes :
+  (∀ (W : Type) [Fintype W] (G : SimpleGraph W), G.CliqueFree 4 → OrdinalGraphRamsey (ω_ 1 ^ 2) (ω_ 1 * ω) G) ↔
+    ∀ (n : ℕ) (G : SimpleGraph (Fin n)), G.CliqueFree 4 → OrdinalGraphRamsey (ω_ 1 ^ 2) (ω_ 1 * ω) G
+info: Erdos597Object/FiniteCodeBridge.lean:55:0: Erdos597.exists_fixed_finite_CH_counterexample_code :
+  ∃ n H, H.CliqueFree 4 ∧ (2 ^ ℵ₀ = ℵ_ 1 → ¬OrdinalGraphRamsey (ω_ 1 ^ 2) (ω_ 1 * ω) H)
+info: Erdos597Object/FiniteCodeBridge.lean:56:0: 'Erdos597.ordinalGraphRamsey_comap_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/FiniteCodeBridge.lean:57:0: 'Erdos597.finite_universal_iff_fin_codes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos597Object/FiniteCodeBridge.lean:58:0: 'Erdos597.exists_fixed_finite_CH_counterexample_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3294/3508] Built Erdos597Object.SetCopies (12s)
+⚠ [3295/3508] Replayed Erdos597Object.BipartiteTarget
+warning: Erdos597Object\BipartiteTarget.lean: imports `Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3297/3508] Built Erdos597Object.GraphCopies (11s)
+✔ [3298/3508] Built Erdos597Object.SetProducts (12s)
+⚠ [3299/3508] Built Erdos597Object.OrdinalPresentation (9.1s)
+warning: Erdos597Object\OrdinalPresentation.lean: imports `Mathlib.SetTheory.Ordinal.Arithmetic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3300/3508] Built Erdos597Object.PartitionSemantics (11s)
+✔ [3302/3508] Built Erdos597Object.OrdinalSemantics (10s)
+⚠ [3304/3508] Replayed Erdos597Object.OrdinalsInSets
+warning: Erdos597Object/OrdinalsInSets.lean:28:46: This simp argument is unused:
+  or_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [trichotomyValue, or_iff_not_imp_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3305/3508] Replayed Erdos597Object.CHSemantics
+warning: Erdos597Object/CHSemantics.lean:24:38: This simp argument is unused:
+  bd_apps
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [powerset, powersetValue, bd_app, bd_func, boolean_realize_bounded_term,
+    boolean_realize_bounded_term_mk_fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CHSemantics.lean:25:34: This simp argument is unused:
+  boolean_realize_bounded_term_mk_fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [powerset, powersetValue, bd_apps, bd_app, bd_func, boolean_realize_bounded_term]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CHSemantics.lean:41:64: This simp argument is unused:
+  var3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [isTotalRevF, totalOnValue, edgeValue, var0, var1, var2, var4, lattice.imp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3310/3508] Replayed Erdos597Object.FirstUncountable
+warning: Erdos597Object/FirstUncountable.lean:69:49: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp at hcountable
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos597Object/FirstUncountable.lean:75:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3311/3508] Replayed Erdos597Object.MartinTransport
+warning: Erdos597Object\MartinTransport.lean: imports `Mathlib.Order.Shrink` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3312/3508] Replayed Erdos597Object.SmallMartin
+warning: Erdos597Object\SmallMartin.lean: imports `Mathlib.SetTheory.Cardinal.Arithmetic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3316/3508] Replayed Erdos597Object.IterationCardinals
+warning: Erdos597Object\IterationCardinals.lean: imports `Mathlib.SetTheory.Cardinal.Cofinality.Ordinal` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3320/3508] Replayed Erdos597Object.SetPosets
+warning: Erdos597Object/SetPosets.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:37:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:38:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:52:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:80:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:81:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:103:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:105:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:106:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:127:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:128:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:129:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:130:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:140:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:141:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:142:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetPosets.lean:143:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3323/3508] Replayed Erdos597Object.BooleanIterationCCC
+warning: Erdos597Object/BooleanIterationCCC.lean:87:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3324/3508] Replayed Erdos597Object.MartinEquivalence
+warning: Erdos597Object/MartinEquivalence.lean:23:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:24:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:26:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:52:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/MartinEquivalence.lean:54:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3325/3508] Replayed Erdos597Object.CHInterpretation
+warning: Erdos597Object\CHInterpretation.lean: imports `Mathlib.SetTheory.Cardinal.Continuum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/CHInterpretation.lean:48:49: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp at hsmall
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3326/3508] Replayed Erdos597Object.CollectionSemantics
+warning: Erdos597Object/CollectionSemantics.lean:31:4: This simp argument is unused:
+  boolean_realize_bounded_term_mk_fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [union, unionValue, bd_app, bd_func, boolean_realize_bounded_term]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CollectionSemantics.lean:106:29: This simp argument is unused:
+  bounded_preterm.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [var1, var, bd_var]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CollectionSemantics.lean:148:4: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [collectionValue, lattice.imp, var0, var1, var2, var3, boolean_realize_bounded_formula_liftAt_insert₂,
+    boolean_realize_bounded_formula_liftAt_insert₃, collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CollectionSemantics.lean:149:4: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert₂
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [collectionValue, lattice.imp, var0, var1, var2, var3, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₃, collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CollectionSemantics.lean:150:4: This simp argument is unused:
+  boolean_realize_bounded_formula_liftAt_insert₃
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [collectionValue, lattice.imp, var0, var1, var2, var3, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, collectionSubstFormula, bounded_preformula.fst, bounded_preterm.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/CollectionSemantics.lean:151:4: This simp argument is unused:
+  collectionSubstFormula
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [collectionValue, lattice.imp, var0, var1, var2, var3, boolean_realize_bounded_formula_liftAt_insert,
+    boolean_realize_bounded_formula_liftAt_insert₂, boolean_realize_bounded_formula_liftAt_insert₃,
+    bounded_preformula.fst, bounded_preterm.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3329/3508] Replayed Erdos597Object.BooleanNameTransport
+warning: Erdos597Object\BooleanNameTransport.lean: imports `Mathlib.Order.Hom.CompleteLattice` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3331/3508] Replayed Erdos597Object.SetAxioms
+warning: Erdos597Object/SetAxioms.lean:17:57: This simp argument is unused:
+  lattice.imp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [axiomOfEmptyset, boolean_realize_sentence, var0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/SetAxioms.lean:25:56: This simp argument is unused:
+  iff_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [axiomOfExtensionality, boolean_realize_sentence, bd_biimp, var0, var1, var2, lattice.imp,
+    or_iff_not_imp_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/SetAxioms.lean:31:56: This simp argument is unused:
+  iff_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [axiomOfUnion, boolean_realize_sentence, bd_biimp, ZFSet.mem_sUnion, var0, var1, var2, lattice.imp,
+    or_iff_not_imp_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/SetAxioms.lean:37:56: This simp argument is unused:
+  iff_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [axiomOfPowerset, boolean_realize_sentence, bd_biimp, var0, var1, var2, lattice.imp, or_iff_not_imp_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos597Object/SetAxioms.lean:60:43: `Ordinal.natCast_succ` has been deprecated: Use `Nat.cast_add_one` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : AddMonoidWithOne R] (n : ℕ), ↑(n + 1) = ↑n + 1
+instead of
+  ∀ (n : ℕ), ↑n.succ = Order.succ ↑n
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.natCast_succ` to `Nat.cast_add_one x`).
+⚠ [3332/3508] Replayed Erdos597Object.SetZorn
+warning: Erdos597Object\SetZorn.lean: imports `Mathlib.Order.Zorn` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/SetZorn.lean:18:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetZorn.lean:22:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/SetZorn.lean:43:38: This simp argument is unused:
+  var3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [zornsLemma, boolean_realize_sentence, realize_subset, subsetValue_set, unionValue_set, var0, var1, var2,
+    lattice.imp, or_iff_not_imp_left, and_imp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3348/3508] Replayed Erdos597Object.PosetCompletion
+warning: Erdos597Object\PosetCompletion.lean: imports `Mathlib.Topology.Order.UpperLowerSetTopology` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3353/3508] Replayed Erdos597Object.PosetCompletionCCC
+warning: Erdos597Object/PosetCompletionCCC.lean:47:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3358/3508] Replayed Erdos597Object.CompletionEmbedding
+warning: Erdos597Object\CompletionEmbedding.lean: imports `Mathlib.Order.Hom.CompleteLattice` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3359/3508] Replayed Erdos597Object.BooleanUncountability
+warning: Erdos597Object/BooleanUncountability.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/BooleanUncountability.lean:73:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3363/3508] Replayed Erdos597Object.BooleanProjection
+warning: Erdos597Object\BooleanProjection.lean: imports `Mathlib.Order.GaloisConnection.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3369/3508] Replayed Erdos597Object.BooleanOrdinalBridge
+warning: Erdos597Object/BooleanOrdinalBridge.lean:29:62: This simp argument is unused:
+  sup_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [wellFoundedValue, bSet.epsilon_well_founded, subsetValue_bSet, memberValue_bSet, eqValue_bSet,
+    lattice.imp, compl_compl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3373/3508] Replayed Erdos597Object.BooleanDirectLimit
+warning: Erdos597Object\BooleanDirectLimit.lean: imports `Mathlib.Order.Antisymmetrization` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object\BooleanDirectLimit.lean: imports `Mathlib.Order.DirectedInverseSystem` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/BooleanDirectLimit.lean:27:0: automatically included section variable(s) unused in theorem `Erdos597Object.BooleanDirectLimit.rawLE_refl`:
+  [IsDirectedOrder ι]
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDirectedOrder ι] [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/BooleanDirectLimit.lean:70:0: automatically included section variable(s) unused in theorem `Erdos597Object.BooleanDirectLimit.mapped_nonzero`:
+  [IsDirectedOrder ι]
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDirectedOrder ι] [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3377/3508] Replayed Erdos597Object.BooleanFiniteGraphs
+warning: Erdos597Object/BooleanFiniteGraphs.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/BooleanFiniteGraphs.lean:128:15: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos597Object/BooleanFiniteGraphs.lean:128:17: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos597Object/BooleanFiniteGraphs.lean:129:19: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos597Object/BooleanFiniteGraphs.lean:168:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos597Object/BooleanFiniteGraphs.lean:171:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3378/3508] Replayed Erdos597Object.LimitProjections
+warning: Erdos597Object/LimitProjections.lean:17:0: automatically included section variable(s) unused in theorem `Erdos597Object.LimitProjections.transition_comp`:
+  [IsDirectedOrder ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDirectedOrder ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3385/3508] Replayed Erdos597Object.LimitCardinality
+warning: Erdos597Object/LimitCardinality.lean:18:0: automatically included section variable(s) unused in theorem `Erdos597Object.LimitCardinality.rawCondition_card_le`:
+  [IsDirectedOrder ι]
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDirectedOrder ι] [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3387/3508] Replayed Erdos597Object.HullCoefficients
+warning: Erdos597Object/HullCoefficients.lean:81:42: Variable name `domain` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _domain
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3390/3508] Replayed Erdos597Object.SystemExtension
+warning: Erdos597Object\SystemExtension.lean: imports `Mathlib.Order.WithBot` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/SystemExtension.lean:26:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemExtension.extendedFamily_ccc`:
+  [Preorder I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Preorder I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemExtension.lean:33:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemExtension.extendedFamily_card_le`:
+  [Preorder I]
+  [(i : I) → CompleteBooleanAlgebra (B i)]
+  [CompleteBooleanAlgebra C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Preorder I] [(i : I) → CompleteBooleanAlgebra (B i)] [CompleteBooleanAlgebra C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemExtension.lean:40:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemExtension.extendedIndex_card_le`:
+  [Preorder I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Preorder I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemExtension.lean:95:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemExtension.extendedMap_injective`:
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemExtension.lean:123:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemExtension.successorLeg_injective`:
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3395/3508] Replayed Erdos597Object.StationaryLimits
+warning: Erdos597Object\StationaryLimits.lean: imports `Mathlib.SetTheory.Cardinal.Cofinality.Club` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object\StationaryLimits.lean: imports `Mathlib.Order.SuccPred.CompleteLinearOrder` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/StationaryLimits.lean:46:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:48:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:54:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:127:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos597Object/StationaryLimits.lean:134:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos597Object/StationaryLimits.lean:181:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:204:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/StationaryLimits.lean:218:0: automatically included section variable(s) unused in theorem `Erdos597Object.StationaryLimits.denseAlong_of_normal`:
+  [WellFoundedLT α]
+  [IsRegularCardinalOrder α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [WellFoundedLT α] [IsRegularCardinalOrder α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3396/3508] Replayed Erdos597Object.CofinalSequences
+warning: Erdos597Object/CofinalSequences.lean:23:0: automatically included section variable(s) unused in theorem `Erdos597Object.CofinalSequences.successorsBelow_bounded`:
+  [NoMaxOrder D]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NoMaxOrder D] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/CofinalSequences.lean:29:0: automatically included section variable(s) unused in theorem `Erdos597Object.CofinalSequences.normalization_le`:
+  [NoMaxOrder D]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NoMaxOrder D] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/CofinalSequences.lean:75:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:76:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:83:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:85:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:86:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:70:0: automatically included section variable(s) unused in theorem `Erdos597Object.CofinalSequences.ccc_of_small_cofinality`:
+  [WellFoundedLT J]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [WellFoundedLT J] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/CofinalSequences.lean:103:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:105:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:106:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:107:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:111:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:114:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/CofinalSequences.lean:115:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3400/3508] Replayed Erdos597Object.ExtensionContinuity
+warning: Erdos597Object/ExtensionContinuity.lean:48:0: automatically included section variable(s) unused in theorem `Erdos597Object.ExtensionContinuity.successor_continuous`:
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3406/3508] Replayed Erdos597Object.SystemReindexing
+warning: Erdos597Object/SystemReindexing.lean:32:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemReindexing.pullback_injective`:
+  [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DirectedSystem B fun x1 x2 x3 => ⇑(e x1 x2 x3)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemReindexing.lean:36:0: automatically included section variable(s) unused in theorem `Erdos597Object.SystemReindexing.pullback_ccc`:
+  [Preorder I]
+  [Preorder J]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Preorder I] [Preorder J] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/SystemReindexing.lean:68:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3407/3508] Replayed Erdos597Object.IterationSystems
+warning: Erdos597Object/IterationSystems.lean:132:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/IterationSystems.lean:166:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos597Object/IterationSystems.lean:184:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3411/3508] Replayed Erdos597Object.SystemRestrictions
+warning: Erdos597Object\SystemRestrictions.lean: imports `Mathlib.CategoryTheory.SmallObject.WellOrderInductionData` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3416/3508] Replayed Erdos597Object.PrefixExtensions
+warning: Erdos597Object\PrefixExtensions.lean: imports `Mathlib.Order.Hom.WithTopBot` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Erdos597Object/PrefixExtensions.lean:26:42: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos597Object/PrefixExtensions.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3417/3508] Replayed Erdos597Object.TransfiniteSystems
+warning: Erdos597Object/TransfiniteSystems.lean:38:0: automatically included section variable(s) unused in theorem `Erdos597Object.TransfiniteSystems.sectionFamily_compatible`:
+  [SuccOrder J]
+  [NoMaxOrder J]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [SuccOrder J] [NoMaxOrder J] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3419/3508] Replayed Erdos597Object.PosetStageCapture
+warning: Erdos597Object/PosetStageCapture.lean:131:0: automatically included section variable(s) unused in theorem `Erdos597Object.PosetStageCapture.cover_top_reflected`:
+  [Nonempty J]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty J] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3423/3508] Replayed Erdos597Object.RequirementCodes
+warning: Erdos597Object/RequirementCodes.lean:17:0: automatically included section variable(s) unused in theorem `Erdos597Object.RequirementCodes.raw_card_le`:
+  [CompleteBooleanAlgebra B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteBooleanAlgebra B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Erdos597Object/RequirementCodes.lean:46:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos597Object/RequirementCodes.lean:65:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3433/3508] Replayed Erdos597Object.ContextualMartinModel
+warning: Erdos597Object/ContextualMartinModel.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3436/3508] Replayed Erdos597Object.FullMartinModel
+warning: Erdos597Object/FullMartinModel.lean:27:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3507/3508] Built Erdos597Object.Solution (11s)
+Build completed successfully (3508 jobs).

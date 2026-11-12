@@ -1,5 +1,13 @@
 # Reproduction
 
+Start with a checkout that preserves the committed line endings.
+
+```text
+git -c core.autocrlf=false clone https://github.com/Ghuffy1/erdos-597.git
+cd erdos-597
+git checkout 279825a39739918a2553880a32ec9ab1dee1f780
+```
+
 The exact toolchain is **Lean 4.35.0-rc3**. Both projects contain
 `lean-toolchain`, `lakefile.toml` and complete `lake-manifest.json` lockfiles.
 The principal project is `formal/object_language`. Its adjacent local dependency

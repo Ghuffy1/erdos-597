@@ -7,7 +7,7 @@
 | Jensen Kohlmeyer | [JENW1N](https://github.com/JENW1N) | Equal contributor |
 | Liam Kruer | [lkruer](https://github.com/lkruer) | Equal contributor |
 
-Ghuffy1 is the intended repository owner and corresponding submitter. Equal
+Ghuffy1 is the repository owner and corresponding submitter. Equal
 credit applies to the team's original mathematical and project-specific
 formalization work. Prior mathematical results and imported libraries retain
 their authors' credit.

@@ -1,0 +1,28 @@
+{
+  "completed_utc": "2026-11-12T21:01:33.887709+00:00",
+  "selected_proof_commit": "279825a39739918a2553880a32ec9ab1dee1f780",
+  "audited_checkout": "fa7fdcba6400539108c5b4a3ba6e15e25417f828",
+  "formal_source_identity_verified": true,
+  "normal_build_exit_code": 0,
+  "normal_build_seconds": 253.5,
+  "normal_build_jobs": 3508,
+  "normal_build_command": [
+    "lake",
+    "build"
+  ],
+  "reused_verified_build": true,
+  "rehash_pilot": "Stopped after 647 seconds because of disk I/O contention. Its records remain in the private audit workspace.",
+  "build_log_original_sha256": "599ce6547e87dc220346696fc9dcd303a963ddf76d65d482ec44ccac2007efec",
+  "build_log_published_sha256": "599ce6547e87dc220346696fc9dcd303a963ddf76d65d482ec44ccac2007efec",
+  "pdf_sha256": "81a88865bac226788a60778a1146de630d4ab187ee48b5907915ca23b857ed9b",
+  "pdf_pages": 6,
+  "pdf_fonts_embedded": true,
+  "pdf_visual_review_passed": true,
+  "target_count": 1763,
+  "export_sha256": "6c2f6186d682841bb5f6c89656dce9b67e72763cd9450ea1e42f05b1ac151d69",
+  "checker_modes": 6,
+  "checker_results_reused_for_identical_export": true,
+  "mathematical_correspondence_review": "PASS, independent internal AI-assisted reread",
+  "organizer_acceptance": "pending",
+  "passed": true
+}

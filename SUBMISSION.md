@@ -46,5 +46,4 @@ authority remains pending. [Team guidance](https://www.hejustinsun.com/prize/faq
 The selected proof commit and its verification evidence are identified in the
 [verification report](verification/report.md). This routing note updates the
 submission documentation. Mathematical acceptance, individual eligibility and
-any award determination remain with JSP. Public release awaits the authors'
-authorization.
+any award determination remain with JSP. The contribution is submitted for JSP's independent review.
