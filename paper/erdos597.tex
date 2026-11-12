@@ -1,0 +1,639 @@
+\documentclass[10pt,letterpaper,leqno]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{
+  pdftitle={Erdos problem 597 and finite-target independence},
+  pdfauthor={Will Howe, Grant Huffman, Jensen Kohlmeyer, Liam Kruer},
+  pdfsubject={Ordinal graph partition relations},
+  pdfkeywords={ordinal partition relations, infinite graphs, ordering property, Martin's axiom}
+}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Om}{\omega_1^2}
+\newcommand{\Bl}{\omega_1\cdot\omega}
+\newcommand{\MA}{\mathrm{MA}_{\aleph_1}}
+\newcommand{\CH}{\mathrm{CH}}
+\newcommand{\ZFC}{\mathrm{ZFC}}
+\newcommand{\otp}{\operatorname{otp}}
+\newcommand{\Gam}{\Gamma}
+\newcommand{\NN}{\mathbb N}
+
+\title[Erd\H{o}s problem 597 and finite-target independence]{Erd\H{o}s problem 597 and finite-target independence}
+\author[W. Howe, G. Huffman, J. Kohlmeyer, and L. Kruer]{Will Howe, Grant Huffman, Jensen Kohlmeyer, and Liam Kruer}
+\date{November 12, 2026}
+\subjclass[2020]{03E02, 05C55, 03E35}
+\keywords{Ordinal partition relations, infinite graphs, ordering property, Martin's axiom, continuum hypothesis}
+\thanks{Electronic correspondence may be addressed to \href{mailto:howew@purdue.edu}{\texttt{howew@purdue.edu}} (W.~Howe), \href{mailto:huffma97@purdue.edu}{\texttt{huffma97@purdue.edu}} (G.~Huffman), \href{mailto:jenwin@purdue.edu}{\texttt{jenwin@purdue.edu}} (J.~Kohlmeyer), and \href{mailto:kruerl@purdue.edu}{\texttt{kruerl@purdue.edu}} (L.~Kruer).}
+
+\begin{document}
+\begin{abstract}
+We study the graph-target partition relation
+$\omega_1^2\to(\omega_1\cdot\omega,H)^2$ from Erd\H{o}s problem~597.
+In $\ZFC$ we construct a connected bipartite graph of cardinality $\aleph_1$
+and diameter at most three, containing no $K_{\omega,\omega}$, for which this
+relation fails. We also construct a fixed finite $K_4$-free graph $H_0$ for
+which the relation fails under the continuum hypothesis. Under Martin's
+axiom at $\aleph_1$, it holds for every finite graph. Consequently the
+universal finite-target assertion, and the assertion for $H_0$ itself, are
+independent of $\ZFC$, relative to the consistency of $\ZFC$.
+\end{abstract}
+\maketitle
+
+\section{Introduction and statements}
+
+All graphs are simple and undirected. A copy of a graph $H$ in a graph $G$
+is an injective map $f\colon V(H)\to V(G)$ satisfying
+\[
+ uv\in E(H)\quad\Longrightarrow\quad f(u)f(v)\in E(G).
+\]
+Additional edges among the image vertices are permitted. An order on the
+host imposes no order requirement on this copy.
+
+For ordinals $\alpha,\beta$ and a graph $H$, the relation
+$\alpha\to(\beta,H)^2$ means that every red-blue coloring of $[\alpha]^2$
+has a red homogeneous set of inherited order type $\beta$ or a blue copy
+of $H$. We write
+\[
+ \Omega=\Om,\qquad B=\Bl.
+\]
+We identify $\Omega$ with $\omega_1\times\omega_1$ in row-first
+lexicographic order, so $(a,b)$ has ordinal position $\omega_1a+b$.
+Equivalently, the blue pairs define a graph on $\Omega$, and a red
+homogeneous set is an independent set in this graph.
+
+Erd\H{o}s asked whether $\Omega\to(B,H)^2$ holds for every graph $H$ of
+cardinality at most $\aleph_1$ that contains neither $K_4$ nor
+$K_{\omega,\omega}$, and whether it holds when $H$ is finite
+\cite{Erdos}. Here $K_{\omega,\omega}$ denotes a complete bipartite graph
+with both vertex classes countably infinite.
+
+\begin{theorem}\label{thm:infinite}
+There is a graph $H_\infty$ of cardinality $\aleph_1$ such that
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.3em]
+\item $H_\infty$ is connected and bipartite, with diameter at most three.
+\item $H_\infty$ contains neither $K_4$ nor $K_{\omega,\omega}$.
+\item $\Omega\not\to(B,H_\infty)^2$.
+\end{enumerate}
+These conclusions hold in $\ZFC$.
+\end{theorem}
+
+\begin{theorem}\label{thm:finite}
+There is a fixed finite $K_4$-free graph $H_0$ such that $\CH$ implies
+\begin{equation}\label{eq:negative}
+ \Omega\not\to(B,H_0)^2.
+\end{equation}
+Under $\MA$, for every finite graph $H$,
+\begin{equation}\label{eq:positive}
+ \Omega\to(B,H)^2.
+\end{equation}
+\end{theorem}
+
+\begin{corollary}\label{cor:independence}
+Assume that $\ZFC$ is consistent. Then each of the following assertions is
+independent of $\ZFC$.
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.3em]
+\item $\Omega\to(B,H)^2$ for every finite $K_4$-free graph $H$.
+\item $\Omega\to(B,H_0)^2$ for the graph $H_0$ in Theorem~\ref{thm:finite}.
+\end{enumerate}
+\end{corollary}
+
+The negative construction uses the nested-interval method of
+Baumgartner--Hajnal \cite{BH} and Chen--Garti--Weinert \cite{CGW}.
+The finite passage from an ordered obstruction to an unordered target is
+an instance of the Ne\v{s}et\v{r}il--R\"odl ordering property \cite{NR}.
+We give its sparse-hypergraph proof in the form needed here.
+The positive partition theorem is due to Baumgartner \cite{Baumgartner}.
+Related nonuniversality methods occur in Shelah \cite{Shelah}, and Li
+\cite{Li} studies their application to the unrestricted graph-target
+question.
+
+\section{Uncountable rows in an ordinal block}
+
+For $S\subseteq\Omega$ and $a<\omega_1$, put
+\[
+ S_a=\{b<\omega_1:(a,b)\in S\}.
+\]
+We call $a$ an uncountable row of $S$ when $S_a$ is uncountable. Every
+uncountable subset of $\omega_1$ is unbounded and has order type $\omega_1$.
+
+\begin{lemma}\label{lem:rows}
+If $S\subseteq\Omega$ has only finitely many uncountable rows, then
+$\otp(S)<B$. In particular, a subset of order type $B$ has infinitely
+many uncountable rows.
+\end{lemma}
+
+\begin{proof}
+Suppose the uncountable rows are $a_1<\cdots<a_k$.
+Each interval of rows before $a_1$ or between successive $a_i$ contains
+only countably many rows, since its indices are bounded below $\omega_1$.
+All its slices are countable, so its intersection with $S$ has countable
+order type. Each slice $S_{a_i}$ has order type $\omega_1$.
+
+The part of $S$ after row $a_k$ has order type at most $\omega_1$.
+Indeed, every element of that part has only countably many predecessors
+there, since the preceding row indices form a countable set and every
+corresponding slice is countable. A well-order in which each element has
+countably many predecessors has order type at most $\omega_1$.
+Adding these pieces gives
+\[
+ \otp(S)\le \omega_1\cdot(k+1)<\omega_1\cdot\omega.
+\]
+When $k=0$, the same predecessor argument applies to all of $S$.
+\end{proof}
+
+\section{An uncountable target omitted in ZFC}
+
+Define a graph $G_*$ on $\omega_1\times\omega_1$ by
+\begin{equation}\label{eq:nested}
+ (a,b)\sim(r,s)
+ \quad\Longleftrightarrow\quad
+ a<r<s<b\ \text{ or }\ r<a<b<s.
+\end{equation}
+
+\begin{lemma}\label{lem:full-nested}
+The graph $G_*$ has no independent set of order type $B$.
+Every nonempty induced subgraph of $G_*$ has a vertex of at most countable
+degree.
+\end{lemma}
+
+\begin{proof}
+If $S$ has order type $B$, Lemma~\ref{lem:rows} gives two uncountable rows
+$a<r$. Choose $s\in S_r$ with $s>r$, and then $b\in S_a$ with $b>s$.
+The vertices $(a,b),(r,s)$ are adjacent by \eqref{eq:nested}.
+
+Now let $S$ be any nonempty vertex set. Choose $(a,b)\in S$ in the least
+row occupied by $S$. Every neighbor $(r,s)$ of $(a,b)$ in $S$ satisfies
+$a<r<s<b$. Both its coordinates lie in the countable ordinal $b$, so
+there are at most countably many such neighbors.
+\end{proof}
+
+Let $T$ be the graph on $\omega_1^{<\omega}$ in which two finite sequences
+are adjacent when one is obtained from the other by appending a single
+ordinal. Its cardinality is $\aleph_1$, since
+\[
+ |\omega_1^{<\omega}|=\sum_{n<\omega}\aleph_1^n=\aleph_1.
+\]
+Every vertex has $\aleph_1$ immediate extensions. The graph is a tree.
+To see that it has no cycle, choose a vertex of maximum sequence length
+on a purported finite cycle. Its two cycle neighbors would both be its
+unique immediate predecessor, which is impossible.
+Thus $T$ contains neither $K_4$ nor $K_{\omega,\omega}$, since each of
+those graphs contains a finite cycle.
+
+\begin{lemma}\label{lem:tree-omitted}
+There is no copy of $T$ in $G_*$.
+\end{lemma}
+
+\begin{proof}
+Under an injective edge-preserving map, the $\aleph_1$ immediate
+extensions of every vertex of $T$ would give $\aleph_1$ distinct
+neighbors of its image. Consequently the subgraph induced on the image
+would have minimum degree at least $\aleph_1$, contrary to
+Lemma~\ref{lem:full-nested}.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:infinite}]
+The blue graph $G_*$ and its red complement already witness
+$\Omega\not\to(B,T)^2$.
+
+Partition the vertices of $T$ into $A_0,A_1$ according to the parity of
+sequence length. Add vertices $h_0,h_1$, place $h_i$ in the side $A_i$,
+and join $h_i$ to every vertex in the opposite side, including $h_{1-i}$.
+Call the resulting graph $H_\infty$.
+It is bipartite and has cardinality $\aleph_1$.
+Two old vertices in the same side are joined through the opposite hub
+by a path of length two. Two old vertices in opposite sides are joined
+through the two hubs by a path of length three. A pair involving a hub
+has distance at most two. Hence $H_\infty$ is connected and has diameter
+at most three. Bipartiteness implies that it is $K_4$-free.
+
+If $H_\infty$ contained a $K_{\omega,\omega}$, removing the two hubs
+would leave two infinite vertex classes with every cross-edge present
+in $T$, a contradiction. Finally, any copy of $H_\infty$ in $G_*$ would
+restrict to a copy of $T$. Lemmas~\ref{lem:full-nested} and
+\ref{lem:tree-omitted} therefore give the required negative partition
+relation for $H_\infty$.
+\end{proof}
+
+\section{A sparse nested graph under CH}
+
+Assume $\CH$. For every $t<\omega_1$, fix an injection
+\[
+ e_t\colon t\longrightarrow\NN.
+\]
+A \emph{pattern} is a countable set $P$ of vertices $(r,s)$ with $r<s$
+such that $P$ occupies infinitely many rows and contains infinitely many
+vertices in each row that it occupies. Since
+\[
+ (\aleph_1)^{\aleph_0}
+ =(2^{\aleph_0})^{\aleph_0}
+ =2^{\aleph_0}=\aleph_1,
+\]
+we may enumerate all patterns as $(P_\nu)_{\nu<\omega_1}$, allowing
+repetitions.
+
+For $x=(a,b)$ we construct an outgoing neighborhood $\Gam(x)$.
+The construction proceeds by recursion on $b$.
+If $a\ge b$, set $\Gam(x)=\varnothing$.
+If $a<b$, call an index $\nu$ \emph{eligible for $x$} when
+\begin{equation}\label{eq:eligible}
+ \nu<b
+ \quad\text{and}\quad
+ a<r<s<b\quad\text{for every }(r,s)\in P_\nu.
+\end{equation}
+The eligible indices form a countable set. List them without repetition
+in a sequence of length at most $\omega$.
+At each step, choose one point $(r,s)$ from the current eligible pattern
+subject to the following rules.
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.3em]
+\item Its row has not previously been selected into $\Gam(x)$.
+\item For every previously selected row $t>r$,
+\begin{equation}\label{eq:selection-rank}
+ e_t(r)>e_t(a),
+ \qquad
+ e_t(r)>e_t(u)
+ \quad\text{for every previously selected row }u<t.
+\end{equation}
+\item For every previously selected point $(u,v)$ with $u<r$,
+\begin{equation}\label{eq:selection-avoid}
+ (r,s)\notin\Gam(u,v).
+\end{equation}
+\end{enumerate}
+Let $G$ be the undirected graph whose edges are the pairs $xy$ with
+$y\in\Gam(x)$.
+
+\begin{lemma}\label{lem:construction}
+Every selection step is possible. The resulting graph satisfies
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2.3em]
+\item if $(r,s)\in\Gam(a,b)$, then $a<r<s<b$.
+\item $\Gam(a,b)$ contains at most one vertex in each row.
+\item $\Gam(a,b)$ meets every pattern eligible for $(a,b)$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+There are only finitely many previous selections at a given step.
+Rule~\textup{(i)} excludes finitely many rows.
+For a fixed previously selected row $t$, let $M_t$ be the maximum of
+$e_t(a)$ and the finitely many values $e_t(u)$ with $u<t$ previously
+selected. Injectivity of $e_t$ implies that
+\[
+ \{r<t:e_t(r)\le M_t\}
+\]
+is finite. Thus rule~\textup{(ii)} also excludes only finitely many rows.
+The current pattern has infinitely many rows, so an admissible row $r$
+can be chosen.
+
+At this row, each set $\Gam(u,v)$ occurring in
+rule~\textup{(iii)} is already defined, since $v<b$ by
+\eqref{eq:eligible}. By induction it contains at most one point in
+row $r$. Consequently rule~\textup{(iii)} excludes finitely many points
+from an infinite slice of the pattern. A permissible $(r,s)$ exists.
+The three asserted properties follow from eligibility, rule~\textup{(i)},
+and the processing of every eligible index.
+\end{proof}
+
+If vertices $x,y$ lie in increasing rows, then
+\begin{equation}\label{eq:orientation}
+ xy\in E(G)\quad\Longleftrightarrow\quad y\in\Gam(x).
+\end{equation}
+In particular, $G$ has no same-row edges.
+
+\Needspace{6\baselineskip}
+\begin{lemma}\label{lem:no-red}
+The graph $G$ has no independent set of order type $B$.
+\end{lemma}
+
+\begin{proof}
+Let $S\subseteq\Omega$ have order type $B$.
+By Lemma~\ref{lem:rows}, choose an uncountable row $a$ of $S$ with
+infinitely many uncountable rows of $S$ above it.
+Choose a countably infinite collection of those later rows, and in each
+chosen row $r$ choose infinitely many points $(r,s)\in S$ with $s>r$.
+Their union is a pattern $P_\nu\subseteq S$.
+
+The coordinates of $P_\nu$, together with $\nu$, are bounded below
+$\omega_1$. Since $S_a$ is unbounded, choose $b\in S_a$ strictly above
+all these ordinals. Then $P_\nu$ is eligible for $(a,b)$.
+Lemma~\ref{lem:construction} supplies a point of
+$\Gam(a,b)\cap P_\nu$, giving an edge of $G$ with both ends in $S$.
+\end{proof}
+
+\section{The ordered six-vertex obstruction}
+
+For $y\in\Gam(x)$, let $\tau_x(y)$ be its selection index in the
+construction of $\Gam(x)$. The uniqueness of its selected row makes
+this index well defined.
+
+\begin{lemma}[Selection reversal]\label{lem:reversal}
+Suppose $u,v\in\Gam(x)$, the row of $u$ is smaller than the row of $v$,
+and $uv\in E(G)$. Then $\tau_x(v)<\tau_x(u)$.
+\end{lemma}
+
+\begin{proof}
+Equation~\eqref{eq:orientation} gives $v\in\Gam(u)$.
+If $u$ had been selected before $v$ in $\Gam(x)$,
+rule~\eqref{eq:selection-avoid} would have excluded $v$.
+The two selection indices are distinct, so the stated inequality follows.
+\end{proof}
+
+\begin{lemma}[Triangle comparison]\label{lem:triangle}
+If $u,v,w$ form a triangle of $G$ in rows $r_u<r_v<r_w$, then
+\begin{equation}\label{eq:triangle}
+ e_{r_w}(r_u)<e_{r_w}(r_v).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Both $v,w$ lie in $\Gam(u)$.
+Lemma~\ref{lem:reversal} places $w$ before $v$ in that neighborhood.
+Rule~\eqref{eq:selection-rank}, applied when $v$ is selected and with
+$t=r_w$, gives \eqref{eq:triangle}.
+\end{proof}
+
+Let $F$ be the complete tripartite graph with parts
+\[
+ \{x,p\},\qquad \{y,z\},\qquad \{q,w\},
+\]
+equipped with the order
+\begin{equation}\label{eq:order-F}
+ x<y<p<q<z<w.
+\end{equation}
+
+\begin{proposition}\label{prop:ordered-obstruction}
+There is no edge-preserving copy of $F$ in $G$ whose six image rows are
+strictly increasing in the order \eqref{eq:order-F}.
+\end{proposition}
+
+\begin{proof}
+Suppose such a copy exists, and retain the labels of $F$ for its image
+vertices. Write $r_v$ for the row of an image vertex $v$.
+The vertices $y,q,z,w$ lie in $\Gam(x)$.
+Applying Lemma~\ref{lem:reversal} to the edges $zw,qz,yq$ gives
+\[
+ \tau_x(w)<\tau_x(z)<\tau_x(q)<\tau_x(y).
+\]
+At the selection of $y$, the row $r_w$ has already been selected, as has
+$r_z<r_w$. Rule~\eqref{eq:selection-rank} therefore gives
+\begin{equation}\label{eq:rank-backward}
+ e_{r_w}(r_z)<e_{r_w}(r_y).
+\end{equation}
+The triples $y,p,w$ and $p,z,w$ are triangles of $F$.
+Lemma~\ref{lem:triangle} gives
+\[
+ e_{r_w}(r_y)<e_{r_w}(r_p)<e_{r_w}(r_z),
+\]
+contradicting \eqref{eq:rank-backward}.
+\end{proof}
+
+\begin{proposition}\label{prop:host-K4}
+The graph $G$ is $K_4$-free.
+\end{proposition}
+
+\begin{proof}
+A $K_4$ would occupy four distinct rows $r_a<r_b<r_c<r_d$.
+Its last three vertices lie in $\Gam(a)$.
+Selection reversal gives
+$\tau_a(d)<\tau_a(c)<\tau_a(b)$.
+At the selection of $b$, rule~\eqref{eq:selection-rank} implies
+$e_{r_d}(r_c)<e_{r_d}(r_b)$.
+The triangle $b,c,d$ gives the opposite strict inequality by
+Lemma~\ref{lem:triangle}.
+\end{proof}
+
+\Needspace{12\baselineskip}
+\section{A finite unordered target}
+
+The following specialization of the Ne\v{s}et\v{r}il--R\"odl ordering
+property \cite{NR} removes the prescribed order on $F$.
+
+\begin{lemma}\label{lem:ordering-property}
+There is a finite $K_4$-free graph $H_0$ such that every linear order on
+$V(H_0)$ contains an order-preserving, edge-preserving copy of the
+ordered graph $F$ from \eqref{eq:order-F}.
+\end{lemma}
+
+\begin{proof}
+For a sufficiently large integer $n$, choose a random $6$-uniform
+hypergraph on $[n]$, including each six-element set independently with
+probability $p=n^{-19/4}$. Let $X$ count its hyperedges. Let $Y$ count
+pairs of distinct hyperedges with an intersection of size at least two.
+Let $Z$ count triples of distinct hyperedges $E_1,E_2,E_3$ admitting
+distinct vertices
+\[
+ v_{12}\in E_1\cap E_2,\qquad
+ v_{23}\in E_2\cap E_3,\qquad
+ v_{31}\in E_3\cap E_1.
+\]
+There are at most $n^{10}$ possible pairs counted by $Y$.
+Indeed, choose two common vertices and at most four further vertices
+for each of the two hyperedges. There are at most $n^{15}$ possible
+triples counted by $Z$, by choosing the three intersection witnesses
+and at most four further vertices for each hyperedge. Thus
+\begin{align*}
+ \mathbb E(X-Y-Z)
+ &\ge \binom n6 p-n^{10}p^2-n^{15}p^3\\
+ &=\left(\frac1{720}+o(1)\right)n^{5/4}
+       -n^{1/2}-n^{3/4}.
+\end{align*}
+There is an absolute $c>0$ such that, for all sufficiently large $n$,
+some outcome satisfies $X-Y-Z\ge c n^{5/4}$.
+From this outcome, delete one hyperedge from each originally counted
+bad pair or triple. Repeated deletions of the same hyperedge are counted
+once. The resulting hypergraph $\mathcal H$ has
+\begin{equation}\label{eq:many-hyperedges}
+ m=|\mathcal H|\ge c n^{5/4},
+\end{equation}
+distinct hyperedges intersect in at most one vertex, and no triple of
+hyperedges has three distinct intersection witnesses as above.
+
+Independently for each $E\in\mathcal H$, choose a uniformly random
+bijection from the six labels of $F$ onto $E$, and place the corresponding
+edges of $F$ on $E$. Let $H_0$ be the union of all these graph edges.
+Every graph edge has a unique supporting hyperedge, since two
+hyperedges meet in at most one vertex.
+
+Every triangle of $H_0$ lies in one supporting hyperedge.
+If two of its edges have the same support $E$, all three triangle
+vertices belong to $E$, and the support of its third edge must also be
+$E$. If the three supports are distinct, the three triangle vertices
+are distinct intersection witnesses, contrary to the construction of
+$\mathcal H$.
+If $H_0$ contained a $K_4$, two triangles sharing an edge would have the
+same supporting hyperedge. All four vertices would lie in that
+hyperedge, and uniqueness of support would place all six edges in its
+copy of $F$. This contradicts the fact that $F=K_{2,2,2}$ is $K_4$-free.
+Therefore every choice of the label bijections produces a $K_4$-free
+graph $H_0$.
+
+Fix a linear order on $[n]$. For any $E\in\mathcal H$, the probability
+that its labels occur in precisely the order \eqref{eq:order-F} is
+$1/6!$. These events are independent over the hyperedges, since their
+label bijections were chosen independently. The probability that at
+least one of the $n!$ linear orders has no successful hyperedge is at most
+\begin{equation}\label{eq:union-bound}
+ n!\left(1-\frac1{6!}\right)^m
+ \le \exp\left(n\log n-\frac{m}{720}\right)<1
+\end{equation}
+for sufficiently large $n$, by \eqref{eq:many-hyperedges}.
+Some choice of the label bijections therefore works for every linear
+order on $[n]$. Fix that choice to obtain $H_0$.
+\end{proof}
+
+\begin{proposition}\label{prop:no-finite-copy}
+Under $\CH$, the graph $G$ from Section~4 contains no copy of $H_0$.
+\end{proposition}
+
+\begin{proof}
+Suppose $f\colon V(H_0)\to V(G)$ is an injective edge-preserving map.
+Order $V(H_0)$ by the rows of its images under $f$, breaking ties by
+any fixed linear order. Lemma~\ref{lem:ordering-property} gives an
+ordered copy of $F$ for this linear order.
+Its six image rows are nondecreasing in the order
+$x,y,p,q,z,w$. Each consecutive pair in this list is an edge of $F$.
+Since $G$ has no same-row edges, each consecutive pair of image rows
+is strictly increasing. Proposition~\ref{prop:ordered-obstruction}
+now gives a contradiction.
+\end{proof}
+
+Color the edges of $G$ blue and all other pairs red.
+Lemma~\ref{lem:no-red} and Proposition~\ref{prop:no-finite-copy}
+show that this coloring has neither a red set of order type $B$ nor a
+blue copy of $H_0$. The finite graph $H_0$ was fixed in
+Lemma~\ref{lem:ordering-property}, before the assumption of $\CH$.
+This proves \eqref{eq:negative}.
+
+\section{The positive relation and independence}
+
+Recall that $\MA$ states that for every nonempty partially ordered set satisfying
+the countable chain condition, every family of at most $\aleph_1$ dense
+subsets is met by a filter. We use the following partition theorem.
+
+\begin{theorem}[Baumgartner {\cite[Theorem~3.5(a)]{Baumgartner}}]\label{thm:Baumgartner}
+Assume $\MA$. Then
+\[
+ \Bl\to(\Bl,n)^2
+ \qquad\text{for every finite }n.
+\]
+\end{theorem}
+
+Here the second alternative is a blue complete graph on $n$ vertices.
+
+\begin{proof}[Proof of \eqref{eq:positive} and Theorem~\ref{thm:finite}]
+Let $H$ be a finite graph with $n$ vertices. For $n=0$, every host contains
+the empty copy, so the assertion is immediate.
+For $n>0$, restrict an arbitrary coloring of $[\Omega]^2$ to its initial
+segment of type $B$. Theorem~\ref{thm:Baumgartner} gives a red set of
+order type $B$ or a blue $K_n$. Every $n$-vertex graph has an
+edge-preserving copy in $K_n$, proving \eqref{eq:positive}.
+Together with the construction in Section~6, this proves
+Theorem~\ref{thm:finite}.
+\end{proof}
+
+\begin{proof}[Proof of Corollary~\ref{cor:independence}]
+Let $\mathsf A$ be the assertion that $\Omega\to(B,H)^2$ for every
+finite $K_4$-free graph $H$, and let $\mathsf A_0$ be
+$\Omega\to(B,H_0)^2$.
+Theorem~\ref{thm:finite} proves
+\[
+ \CH\ \Longrightarrow\ \neg\mathsf A\wedge\neg\mathsf A_0,
+ \qquad
+ \MA\ \Longrightarrow\ \mathsf A\wedge\mathsf A_0.
+\]
+G\"odel's relative consistency theorem gives a model of
+$\ZFC+\CH$ whenever $\ZFC$ is consistent \cite{Godel}.
+The relative consistency theorem of Solovay and Tennenbaum gives a model
+of $\ZFC+\MA$ under the same assumption \cite{ST}.
+Thus each of $\mathsf A$ and $\mathsf A_0$, as well as each of their
+negations, is consistent with $\ZFC$ relative to its consistency.
+\end{proof}
+
+\section*{Acknowledgments}
+The authors acknowledge assistance from OpenAI's ChatGPT in mathematical
+exploration, proof checking, and preparation of the exposition.
+
+\begin{thebibliography}{9}
+\raggedright
+
+\bibitem{Baumgartner}
+J.~E. Baumgartner,
+\emph{Remarks on partition ordinals},
+in \emph{Set Theory and its Applications} (J.~Stepr\={a}ns and
+S.~Watson, eds.), Lecture Notes in Mathematics \textbf{1401},
+Springer, Berlin, 1989, 5--17.
+\href{https://doi.org/10.1007/BFb0097328}{doi:10.1007/BFb0097328}.
+
+\bibitem{BH}
+J.~E. Baumgartner and A.~Hajnal,
+\emph{A remark on partition relations for infinite ordinals with an
+application to finite combinatorics},
+in \emph{Logic and Combinatorics} (S.~G. Simpson, ed.),
+Contemporary Mathematics \textbf{65}, American Mathematical Society,
+Providence, RI, 1987, 157--167.
+\href{https://doi.org/10.1090/conm/065/891246}{doi:10.1090/conm/065/891246}.
+
+\bibitem{CGW}
+W.~Chen, S.~Garti, and T.~Weinert,
+\emph{Cardinal characteristics of the continuum and partitions},
+Israel Journal of Mathematics \textbf{235} (2020), 13--38.
+\href{https://doi.org/10.1007/s11856-019-1942-y}{doi:10.1007/s11856-019-1942-y}.
+
+\bibitem{Erdos}
+P.~Erd\H{o}s,
+\emph{Some problems on finite and infinite graphs},
+in \emph{Logic and Combinatorics} (S.~G. Simpson, ed.),
+Contemporary Mathematics \textbf{65}, American Mathematical Society,
+Providence, RI, 1987, 223--228.
+
+\bibitem{Godel}
+K.~G\"odel,
+\emph{The Consistency of the Axiom of Choice and of the Generalized
+Continuum-Hypothesis with the Axioms of Set Theory},
+Annals of Mathematics Studies \textbf{3},
+Princeton University Press, Princeton, NJ, 1940.
+
+\bibitem{Li}
+A.~C. Li,
+\emph{A nonuniversality obstruction to an ordinal graph partition relation},
+preprint, version~1.1, 2026.
+\href{https://doi.org/10.5281/zenodo.22671917}{doi:10.5281/zenodo.22671917}.
+
+\bibitem{NR}
+J.~Ne\v{s}et\v{r}il and V.~R\"odl,
+\emph{On a probabilistic graph-theoretical method},
+Proceedings of the American Mathematical Society \textbf{72} (1978),
+417--421.
+\href{https://doi.org/10.1090/S0002-9939-1978-0507350-7}{doi:10.1090/S0002-9939-1978-0507350-7}.
+
+\bibitem{Shelah}
+S.~Shelah,
+\emph{Universality among graphs omitting a complete bipartite graph},
+Combinatorica \textbf{32} (2012), 325--362.
+\href{https://doi.org/10.1007/s00493-012-2033-4}{doi:10.1007/s00493-012-2033-4}.
+
+\bibitem{ST}
+R.~M. Solovay and S.~Tennenbaum,
+\emph{Iterated Cohen extensions and Souslin's problem},
+Annals of Mathematics (2) \textbf{94} (1971), 201--245.
+\href{https://doi.org/10.2307/1970860}{doi:10.2307/1970860}.
+
+\end{thebibliography}
+\end{document}

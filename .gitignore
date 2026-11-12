@@ -1,0 +1,13 @@
+.lake/
+.audit/
+__pycache__/
+*.pyc
+*.olean
+*.olean.*
+*.ilean
+*.ir
+*.ir.*
+*.aux
+*.log
+*.out
+.env

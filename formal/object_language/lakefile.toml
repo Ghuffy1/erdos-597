@@ -1,0 +1,24 @@
+name = "erdos597_object_language"
+version = "0.1.0"
+defaultTargets = ["Erdos597Object"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "5bd58ac291422a21f412ae354c91e7d172255a2c"
+
+[[require]]
+name = "erdos597"
+path = "../single_file_conditional"
+
+[[lean_lib]]
+name = "Flypitch"
+
+[[lean_lib]]
+name = "Erdos597Object"
+globs = ["Erdos597Object.*"]

@@ -1,0 +1,17 @@
+name = "erdos597"
+version = "0.1.0"
+defaultTargets = ["Erdos597"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "partite-construction"
+git = "https://github.com/janhubicka/partite-construction"
+rev = "4eccabb789050d67ed50f9c7a5a6d58b589dc5d9"
+
+[[lean_lib]]
+name = "Erdos597"
+
+[[lean_lib]]
+name = "AuditStatement"

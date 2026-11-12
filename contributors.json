@@ -1,0 +1,30 @@
+{
+  "owner": "Ghuffy1",
+  "corresponding_submitter": "Ghuffy1",
+  "contribution_credit": "equal",
+  "identity_review": "pending_prize_team_review",
+  "contributors": [
+    {
+      "name": "Will Howe",
+      "github": "H0W4RD-dev",
+      "equal_contributor": true
+    },
+    {
+      "name": "Grant Huffman",
+      "github": "Ghuffy1",
+      "equal_contributor": true
+    },
+    {
+      "name": "Jensen Kohlmeyer",
+      "github": "JENW1N",
+      "equal_contributor": true
+    },
+    {
+      "name": "Liam Kruer",
+      "github": "lkruer",
+      "equal_contributor": true
+    }
+  ],
+  "ai_assistance": "OpenAI ChatGPT",
+  "award_allocation": "not_determined"
+}

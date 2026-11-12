@@ -1,0 +1,45 @@
+{
+  "versions": {
+    "lean": "Lean (version 4.35.0-rc3, x86_64-w64-windows-gnu, commit 470d5ce1400764999581fd26d5d72b00d990b0f4, Release)",
+    "lake": "Lake version 5.0.0-src+470d5ce (Lean version 4.35.0-rc3)"
+  },
+  "platform": "x86_64-w64-windows-gnu",
+  "binaries": {
+    "lean": {
+      "bytes": 83456,
+      "sha256": "cc24f20c0766382b971cd74cd67fb19413d16d01d6bc09ef90ed02c207cd6e1a"
+    },
+    "lake": {
+      "bytes": 87040,
+      "sha256": "5533e4b8acc951aab18835b27b1e631cc52a631c2a81b34d5853f2f54666aa5d"
+    },
+    "leanexport": {
+      "bytes": 307200,
+      "sha256": "05824a35ebd153603325242bd463e89ab137ed442074db2f4535c4ffa81827ee"
+    },
+    "leanchecker": {
+      "bytes": 120832,
+      "sha256": "f9e7fe9279dbd106af8258bc1b1d05be3a93fc44c65620847d3d4ad3b8951ccc"
+    },
+    "leanchecker-paranoid": {
+      "bytes": 8510976,
+      "sha256": "29276ba581c1c11edc8a8573ac1194ee95297325e9912e5eeb3bb77c45f7516f"
+    },
+    "lean4lean": {
+      "bytes": 33063936,
+      "sha256": "e51ea50cf5103d14dec0bf5c8e15f4764fb42ea33b96767236ffffb84a8f4e51"
+    },
+    "nanoda_bin": {
+      "bytes": 1105408,
+      "sha256": "3fc1d022f5f051f49be1d6263b72df62e17e1d0226b28b494517916d09c2fd38"
+    },
+    "con-leche": {
+      "bytes": 23436288,
+      "sha256": "37ca6b277458808e6e3955322d827fa648721223d5711bfcfdcd00d91d29cf9f"
+    },
+    "con-ron": {
+      "bytes": 3683840,
+      "sha256": "4dd2aaf87cbb093f637f6a91cf8a9f7509827aa19aa72a160f5c7585336ae45c"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "modified_library_files": [
+    {
+      "path": "Flypitch/Colimit.lean",
+      "copied_sha256": "a51e344a81ce02a20f63058a5fe57f64b062abdb6292d14a5dc38d5b06e3e53e",
+      "current_sha256": "60d3c58f5d13ed3b60de77c4d57c54d6d9b0b8d1c71634a902077c69299d3710",
+      "change": "Import-only compatibility changes and this repository's prominent local-modification notice.",
+      "checked_preparation_sha256": "b923b1a8a8ab07ac786ef541042d13bc818e62ca67e6d6a39947f37735dc78db"
+    },
+    {
+      "path": "Flypitch/Collapse.lean",
+      "copied_sha256": "efc86f4e025a7a04c1aa481ba78f5fa36376899e90acb39c4dd9328204207f4f",
+      "current_sha256": "b490f938e03b2bc8f5fd4d53d139ad015d047ccea41a12c8acdf442146079bc2",
+      "change": "Import-only compatibility changes and this repository's prominent local-modification notice.",
+      "checked_preparation_sha256": "679dff07e86662d379ccd79dfbb8f14a8dfd25787cb01614194527f5d0c66988"
+    },
+    {
+      "path": "Flypitch/FOL/Syntax.lean",
+      "copied_sha256": "5de0a026d02285676577dd8433091e073edafdc27a725fc94302bfb849db500f",
+      "current_sha256": "d8d16c24e07ff400971c7e9cd401f933823fbd5643a7fe3961f48a875f85ea0b",
+      "change": "Import-only compatibility changes and this repository's prominent local-modification notice.",
+      "checked_preparation_sha256": "fc9bb13af9cd5519701eefbc3d2adbbf8f38f37230a843d143c7720c4e74fad3"
+    },
+    {
+      "path": "Flypitch/RegularOpenAlgebra.lean",
+      "copied_sha256": "85ef585cd150c6248ddc102eae3d62d5484dc5216b00a01be0b94f6e16060c99",
+      "current_sha256": "277e20c597ed54622722b38f7d9c648cec6a63c83d5dec7e0fdee1809ad88680",
+      "change": "Import-only compatibility changes and this repository's prominent local-modification notice.",
+      "checked_preparation_sha256": "85f3dfb0501215ec07eb9004c3838de1f54400cb9e865b4ad401a7e28ddc1144"
+    },
+    {
+      "path": "Flypitch/SetTheory.lean",
+      "copied_sha256": "61a028a20fd7d4349e01a2bbf67fc489e7c53d2826acc851c755f814fb199fa6",
+      "current_sha256": "e447040cd4e9da2968a6447ca7c6348dd3c45287c59b780ac8ec84244402a396",
+      "change": "Import-only compatibility changes and this repository's prominent local-modification notice.",
+      "checked_preparation_sha256": "166636c85d1a5cb9387b20a76201b787863830ba712441dfb76419b23d9ac976"
+    }
+  ],
+  "mathematical_proof_body_changes": false,
+  "description": "Import compatibility changes and added modification notices for the included Flypitch port."
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying mathematical paper and identify the exact formal-proof revision used."
+type: software
+title: "Erdős problem 597 and finite-target independence"
+version: "1.0.0-preparation"
+authors:
+  - given-names: Will
+    family-names: Howe
+  - given-names: Grant
+    family-names: Huffman
+  - given-names: Jensen
+    family-names: Kohlmeyer
+  - given-names: Liam
+    family-names: Kruer
+keywords:
+  - ordinal partition relations
+  - infinite graphs
+  - first-order independence
+  - formal proof
