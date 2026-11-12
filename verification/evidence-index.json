@@ -1,0 +1,303 @@
+[
+  {
+    "file": "axioms.json",
+    "private_original_sha256": "502d4e559189e7cd0f635fa820bd45a46143435dc728191a3019456f969f0b36",
+    "published_sha256": "89939ee0db62bc6b6fc83fb3cd7e3f51629e6acff7d79dee301be12fa7874515",
+    "bytes": 811485,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "export.json",
+    "private_original_sha256": "83629904abbd23c59668bdec5fd1eea5706b5e70fd635ba72684f53d79b40e19",
+    "published_sha256": "f0654392cd4e186a7b1101c2418e09b04c3d85652469598ab7d0f6f614a70360",
+    "bytes": 438641,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "results.json",
+    "private_original_sha256": "61447caeeac91d0b20443c494c81c295d0230fc3698c8e4dde13abe3cca856c9",
+    "published_sha256": "36b98552b848b13e7d76b5e9626864a92fa1e9ce1498f725f39b7198226020bd",
+    "bytes": 169931,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "structure_audit.json",
+    "private_original_sha256": "b222671325568be6dd0fc9b0fb69296856390894cb714bd1367b83d338842308",
+    "published_sha256": "b222671325568be6dd0fc9b0fb69296856390894cb714bd1367b83d338842308",
+    "bytes": 203034,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "targets.json",
+    "private_original_sha256": "4392ce9e3465dcad6df2ccdbfbefec6f9e9e3b0bdbdf5dd9c5417e5c2b3e18de",
+    "published_sha256": "d632938eef5f87360ee4db0f45048c55d3899980435dd857ad78cc379c4dbe1d",
+    "bytes": 311685,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "AxiomAudit.lean",
+    "private_original_sha256": "92e3dfbbd195034e35ea053c57376fd985cbad2edec6f9057e19001cd48f6270",
+    "published_sha256": "92e3dfbbd195034e35ea053c57376fd985cbad2edec6f9057e19001cd48f6270",
+    "bytes": 531102,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-checks.json",
+    "private_original_sha256": "4ff1e811d8918113904585abc3e99a0f889b68179913967b2dfd04d2bcdd0845",
+    "published_sha256": "9f4c9780bd49e423fd99a03e2cf948f549fac1c944baef3b88972063beca8010",
+    "bytes": 4064,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "comment-only-changes.json",
+    "private_original_sha256": "fea6f86b0c7b9ce81e0445a44b451a90b37998b9f8d910e08bcc4a17b06b1a39",
+    "published_sha256": "fea6f86b0c7b9ce81e0445a44b451a90b37998b9f8d910e08bcc4a17b06b1a39",
+    "bytes": 2347,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/axiom-audit.txt",
+    "private_original_sha256": "5af9869294d5520075248c15154b95fe2591a0f7a72e6f38bb793af821c18078",
+    "published_sha256": "5af9869294d5520075248c15154b95fe2591a0f7a72e6f38bb793af821c18078",
+    "bytes": 4671169,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/export-stderr.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Erdos597Object.json",
+    "private_original_sha256": "4000ba480b5e09d031d33b238db14fe410f6436838f930216bc462b119dbfd48",
+    "published_sha256": "c25b2f65a8ac415fa3eda3c5a29357a8cbf7b42a0fd2af31a710d3a743572539",
+    "bytes": 515,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Erdos597Object.txt",
+    "private_original_sha256": "003c58d1df7628f68273efe9e5c8ae5e4f6a01ad0be6fa130d100fc586869e39",
+    "published_sha256": "003c58d1df7628f68273efe9e5c8ae5e4f6a01ad0be6fa130d100fc586869e39",
+    "bytes": 264,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Erdos597Object_Solution.json",
+    "private_original_sha256": "3b20c6461a627654718c9a787f4fcfeba87e8d41ff9fa722d800317ddccb1dde",
+    "published_sha256": "9c4a552b5511ce0076a63561770369e807f13c5adcf173a1a30d774a75330088",
+    "bytes": 542,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Erdos597Object_Solution.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Flypitch_Colimit.json",
+    "private_original_sha256": "4a79d0c5afced16d529ceddc791ba125a20bc92861636c488af8ac61c2825f74",
+    "published_sha256": "f4c684f7b00e342ad7122b18673832fbe7325fa4ea48d22521a5f23fe7f661d9",
+    "bytes": 521,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Flypitch_Colimit.txt",
+    "private_original_sha256": "1a8932074f41c5445a71759781f4bc85cee8bfd450a689467098d687b9668aa1",
+    "published_sha256": "1a8932074f41c5445a71759781f4bc85cee8bfd450a689467098d687b9668aa1",
+    "bytes": 202,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Flypitch_Collapse.json",
+    "private_original_sha256": "32c761ca71590c8ae2dd9002a18d050a566f0b1e9cbb27762906668f36d406d7",
+    "published_sha256": "6dc5836ef4f7ec81ac6c2e129f25fcd012fcd95edbe0c3e16f59135e7a1d7fe1",
+    "bytes": 524,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Flypitch_Collapse.txt",
+    "private_original_sha256": "7730c86f979d801ebcbfe8bfde05e41d85229871ed49644b753cddee55c91315",
+    "published_sha256": "7730c86f979d801ebcbfe8bfde05e41d85229871ed49644b753cddee55c91315",
+    "bytes": 2377,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Flypitch_FOL_Syntax.json",
+    "private_original_sha256": "64c4bfc4794dfa6161eef79c621ff42d9235a69040a89f422068b921c2096311",
+    "published_sha256": "e09a48865a2615ee82964acd2c5e084cd3ddf8fc7d23dbbd80a5f061a49c7638",
+    "bytes": 530,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Flypitch_FOL_Syntax.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "source-check-records/updated_Flypitch_SetTheory.json",
+    "private_original_sha256": "e2eb6eff9aa035002c7bbe39b2e8c340c5e24e1fe4115ed8b4623bc5996581e6",
+    "published_sha256": "561006fb7f28859b065de9a0bd2c22ae0766effc7c8679e2ff0e961f2262802a",
+    "bytes": 527,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/updated_Flypitch_SetTheory.txt",
+    "private_original_sha256": "b90c48aaec443205bb8f7367800dc1095ff89e2a222aa5461778a5629c0505ed",
+    "published_sha256": "b90c48aaec443205bb8f7367800dc1095ff89e2a222aa5461778a5629c0505ed",
+    "bytes": 18646,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/Erdos597.txt",
+    "private_original_sha256": "484a857afd1adff71f929a2c94af56ca8600fb7282f9993347b187d19820c81b",
+    "published_sha256": "484a857afd1adff71f929a2c94af56ca8600fb7282f9993347b187d19820c81b",
+    "bytes": 3020,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/Erdos597Object.SetCodes.txt",
+    "private_original_sha256": "e28a526c4198dc2d79efdf4284df7f41e3710dc0b102edb3d0c929b027f58df8",
+    "published_sha256": "e28a526c4198dc2d79efdf4284df7f41e3710dc0b102edb3d0c929b027f58df8",
+    "bytes": 952,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/Flypitch.PSetOrdinal.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/Flypitch.BVTauto.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/Flypitch.RegularOpenAlgebra.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/lean_paranoid.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/lean_paranoid.json",
+    "private_original_sha256": "0772b1c5bb2ed936037ca3fe936b78b30d66d7f536bdf650e8214d6a6a849388",
+    "published_sha256": "0af9c06da515c1d7e3a785aa3e66911abf280ca4905b1fc7421ea14f06850afd",
+    "bytes": 592,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/lean4lean.txt",
+    "private_original_sha256": "e4bfd86c51a0d88044a546a5b97c4863380dced011f1144dc02c36bca4ada82b",
+    "published_sha256": "e4bfd86c51a0d88044a546a5b97c4863380dced011f1144dc02c36bca4ada82b",
+    "bytes": 423,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/lean4lean.json",
+    "private_original_sha256": "82990f29e44aaea5c764bf829cd5ea7edfd9ea93db42c62c60818010b9437a07",
+    "published_sha256": "9c9aafd2dec6d7249179d92b3d4c800b2ce0047b3c6b9be3069ca7be6a0fc8a4",
+    "bytes": 557,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/nanoda.txt",
+    "private_original_sha256": "f45964488fdb7411ba81b2562097411ffcf1e7645956de526b670dd4aee7869f",
+    "published_sha256": "f45964488fdb7411ba81b2562097411ffcf1e7645956de526b670dd4aee7869f",
+    "bytes": 114,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/nanoda.json",
+    "private_original_sha256": "7dea5428da0d2572feed4bec6b266769f7dfd97f41f51e366a9205fb7aaf2f41",
+    "published_sha256": "24014e654fad1604d6f0f2ccf9e8dbd3cb619171b3b41db7525195439fdfb502",
+    "bytes": 538,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/con_leche.txt",
+    "private_original_sha256": "431a61e7c8bb27a1a5cc51097b88289befac6009c4c409f4de18bdf7a26d2450",
+    "published_sha256": "431a61e7c8bb27a1a5cc51097b88289befac6009c4c409f4de18bdf7a26d2450",
+    "bytes": 822,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/con_leche.json",
+    "private_original_sha256": "6e8b6a620a51f2095e8a24e45c055974d2c629bd4783ff83b520a62e680da4ab",
+    "published_sha256": "965bd0fb766b257c647f804e5a5429d971e4874dedcb543e53698c1351a7af3d",
+    "bytes": 601,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/con_ron.txt",
+    "private_original_sha256": "89e0443e2c5cd03d5dff47129b67b5b811ad9dbde1e5ef7e9630cc8e07a10b48",
+    "published_sha256": "89e0443e2c5cd03d5dff47129b67b5b811ad9dbde1e5ef7e9630cc8e07a10b48",
+    "bytes": 803,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/con_ron.json",
+    "private_original_sha256": "e591be16c218fd9d233b9db77ede30dc58af9a42620e12b517975224cc97bb49",
+    "published_sha256": "f1e9b8812f572f5f86e68f080d273d627228af43a9217ce215c51cc25b488d7f",
+    "bytes": 597,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/lean_default_export.txt",
+    "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "checker-records/lean_default_export.json",
+    "private_original_sha256": "38f2cc016e541e281dc24041e511370f01975ea85991ddb63574f7fafd0e9b80",
+    "published_sha256": "8707ea4d827fae8ce8739d362c4bc819049c5e06aade1c2a62b9bb83d694fc04",
+    "bytes": 589,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "prior-build.json",
+    "private_original_sha256": "ac373896732df1366825faa074220067d7a021fef567bddd75bcf43786a7f561",
+    "published_sha256": "3d474b77e6fa752b07bf95de1cf641f8b995237dc0f96007bcbeb394a9fb87a8",
+    "bytes": 412,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "logs/prior-full-build.txt",
+    "private_original_sha256": "599ce6547e87dc220346696fc9dcd303a963ddf76d65d482ec44ccac2007efec",
+    "published_sha256": "599ce6547e87dc220346696fc9dcd303a963ddf76d65d482ec44ccac2007efec",
+    "bytes": 168679,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "prior-axioms.json",
+    "private_original_sha256": "d21d6e80da128ca5335924c59f44a2bed3da1603cdb4d9a35f872fa8c304edbe",
+    "published_sha256": "a2b21410ef4f6803a6753b3c40b4a42656c3dc078bb0eb0d78975cc7e09e5b67",
+    "bytes": 789196,
+    "transformation": "Local workspace path prefixes normalized. JSON formatting normalized."
+  },
+  {
+    "file": "proof_terms.ndjson.gz",
+    "bytes": 19818035,
+    "published_sha256": "bbec67bf42c590f66b9fcf203b4feb8ed3eb0ff1b02469db3d79cf9e28524782",
+    "uncompressed_sha256": "6c2f6186d682841bb5f6c89656dce9b67e72763cd9450ea1e42f05b1ac151d69",
+    "uncompressed_bytes": 121521760
+  }
+]

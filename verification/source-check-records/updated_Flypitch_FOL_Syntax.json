@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<toolchain>\\bin\\lean.exe",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-o",
+    ".lake/build/lib/lean/Flypitch/FOL/Syntax.olean",
+    "Flypitch/FOL/Syntax.lean"
+  ],
+  "cwd": "<repository>\\formal\\object_language",
+  "started_utc": "2026-11-12T20:19:08.000506+00:00",
+  "pid": 65920,
+  "status": "completed",
+  "exit_code": 0,
+  "seconds": 26.312,
+  "log": "<audit>\\updated_Flypitch_FOL_Syntax.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

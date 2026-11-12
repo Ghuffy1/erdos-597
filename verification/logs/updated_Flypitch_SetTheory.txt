@@ -1,0 +1,363 @@
+Flypitch/SetTheory.lean:117:42: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [orderType]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:152:8: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [nr]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:218:8: warning: `Cardinal.iSup_lt_ord_of_isRegular` has been deprecated: Use `Ordinal.iSup_lt_of_lt_cof` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u} {f : α → Ordinal.{u}} {a : Ordinal.{u}}, #α < a.cof → (∀ (i : α), f i < a) → ⨆ i, f i < a
+instead of
+  ∀ {ι : Type u_1} {f : ι → Ordinal.{u_1}} {c : Cardinal.{u_1}},
+    c.IsRegular → #ι < c → (∀ (i : ι), f i < c.ord) → iSup f < c.ord
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.iSup_lt_ord_of_isRegular` to `Ordinal.iSup_lt_of_lt_cof x`).
+Flypitch/SetTheory.lean:1110:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1133:4: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1131:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1314:4: warning: Unused tactic linter: `change ℵ₀ < Cardinal.mk (Set.range fun x : t => (x.1 : ι))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Flypitch/SetTheory.lean:1347:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1348:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1354:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1363:18: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1363:37: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1373:5: warning: Ambiguous namespace `Set`: it is interpreted as `_root_.Flypitch.Set` because this `open` occurs inside `namespace Flypitch`, while `_root_.Set` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.Flypitch.Set`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+Flypitch/SetTheory.lean:1394:19: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hEmpty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1406:4: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hEmpty]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1385:0: warning: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_nonempty`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Flypitch/SetTheory.lean:1385:8: warning: Overlapping instance parameters in `countable_chain_condition_of_nonempty`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+Flypitch/SetTheory.lean:1413:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1409:0: warning: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_countable`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Flypitch/SetTheory.lean:1409:8: warning: Overlapping instance parameters in `countable_chain_condition_of_countable`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+Flypitch/SetTheory.lean:1438:0: warning: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_topological_basis`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Flypitch/SetTheory.lean:1438:8: warning: Overlapping instance parameters in `countable_chain_condition_of_topological_basis`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+Flypitch/SetTheory.lean:1482:0: warning: automatically included section variable(s) unused in theorem `Flypitch.countable_chain_condition_of_separable_space`:
+  [TopologicalSpace α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Flypitch/SetTheory.lean:1482:8: warning: Overlapping instance parameters in `countable_chain_condition_of_separable_space`:
+
+⚠️ There are 2 `[TopologicalSpace α]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+Flypitch/SetTheory.lean:1584:14: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsUniv a hcoord]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1588:48: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1590:8: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [s', hEq, hsUniv a hai]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1604:20: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsUniv a hcoord]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1605:42: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Flypitch/SetTheory.lean:1609:44: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Flypitch/SetTheory.lean:1664:6: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1703:4: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1736:5: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1746:15: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1749:12: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1792:6: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hsx]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:1848:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1958:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:1981:72: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:1991:74: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2002:35: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2003:28: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2039:37: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2040:30: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2056:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2071:54: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2080:26: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2082:9: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2089:54: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2098:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2107:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2153:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:2154:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:2189:27: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2196:56: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2196:16: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2198:57: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2198:17: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2210:27: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2221:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:2233:47: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2238:27: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2239:63: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2239:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Flypitch/SetTheory.lean:2241:4: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Cardinal.lift_id]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Flypitch/SetTheory.lean:2254:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2267:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲
+Flypitch/SetTheory.lean:2281:45: warning: `Set.restrict` has been deprecated: Use `Set.domRestrict` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵r̵e̵s̵t̵r̵i̵c̵t̵S̲e̲t̲.̲d̲o̲m̲R̲e̲s̲t̲r̲i̲c̲t̲

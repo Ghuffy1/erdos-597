@@ -1,0 +1,18 @@
+{
+  "command": [
+    "<toolchain>\\bin\\leanchecker-paranoid.exe",
+    "--silent",
+    "--from-export",
+    "<prior-audit>\\external\\proof_terms.ndjson"
+  ],
+  "cwd": "<prior-audit>\\external",
+  "status": "completed",
+  "started_utc": "2026-11-12T16:24:51.562495+00:00",
+  "binary_sha256": "29276ba581c1c11edc8a8573ac1194ee95297325e9912e5eeb3bb77c45f7516f",
+  "pid": 44736,
+  "exit_code": 0,
+  "seconds": 54.407,
+  "log": "<prior-audit>\\external\\lean_paranoid.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log_length": 0
+}

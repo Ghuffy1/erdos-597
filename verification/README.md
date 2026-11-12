@@ -1,11 +1,15 @@
 # Verification evidence
 
-This directory holds source-pinned verification reports and machine-readable
-evidence. Each report identifies the exact proof revision checked and the
-verification levels completed. Reports added in a later evidence commit refer
-explicitly to the selected earlier proof commit.
+The [full report](report.md) concerns proof commit `279825a39739918a2553880a32ec9ab1dee1f780`.
+It identifies the exact scope, executed source checks, source-equivalent cache
+reuse, transitive axioms, proof export, checker outcomes and limitations.
 
-The mathematical proof, original-statement correspondence, compiler checks,
-transitive axioms and independent proof-term checks are assessed separately.
-Prize-team mathematical review, contribution/identity verification and award
-decisions remain external steps.
+- [Statement coverage](../STATEMENT.md)
+- [Reproduction commands](../REPRODUCE.md)
+- [Axiom audit](axioms.json) and [audit source](AxiomAudit.lean)
+- [Checker results](results.json) and [structural audit](structure_audit.json)
+- [Source and dependency manifest](source-manifest.json)
+- [Published evidence hashes](evidence-index.json)
+
+JSP's independent mathematical review, contribution and identity verification,
+priority assessment and award decisions remain pending.

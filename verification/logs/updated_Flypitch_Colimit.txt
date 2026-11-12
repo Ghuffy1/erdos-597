@@ -1,0 +1,3 @@
+Flypitch/Colimit.lean:133:7: warning: The namespace `colimit` is duplicated in the declaration `Flypitch.colimit.colimit`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`

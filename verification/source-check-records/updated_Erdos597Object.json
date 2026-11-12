@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<toolchain>\\bin\\lean.exe",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-o",
+    ".lake/build/lib/lean/Erdos597Object.olean",
+    "Erdos597Object.lean"
+  ],
+  "cwd": "<repository>\\formal\\object_language",
+  "started_utc": "2026-11-12T20:20:39.921224+00:00",
+  "pid": 55756,
+  "status": "completed",
+  "exit_code": 0,
+  "seconds": 17.156,
+  "log": "<audit>\\updated_Erdos597Object.log",
+  "log_sha256": "003c58d1df7628f68273efe9e5c8ae5e4f6a01ad0be6fa130d100fc586869e39"
+}

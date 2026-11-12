@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<toolchain>\\bin\\lean.exe",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-o",
+    ".lake/build/lib/lean/Flypitch/SetTheory.olean",
+    "Flypitch/SetTheory.lean"
+  ],
+  "cwd": "<repository>\\formal\\object_language",
+  "started_utc": "2026-11-12T20:19:34.397960+00:00",
+  "pid": 67476,
+  "status": "completed",
+  "exit_code": 0,
+  "seconds": 32.813,
+  "log": "<audit>\\updated_Flypitch_SetTheory.log",
+  "log_sha256": "b90c48aaec443205bb8f7367800dc1095ff89e2a222aa5461778a5629c0505ed"
+}

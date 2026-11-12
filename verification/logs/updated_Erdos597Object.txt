@@ -1,0 +1,5 @@
+Erdos597Object.finiteAssertion : sentence L_ZFC
+'Erdos597Object.finiteAssertion' depends on axioms: [propext, Quot.sound]
+Erdos597Object.martinAxiomAlephOne : sentence L_ZFC
+Erdos597Object.finiteIndependence : Prop
+Erdos597Object.relativeFiniteIndependence : Prop

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "<toolchain>\\bin\\nanoda_bin.exe",
+    "<prior-audit>\\external\\nanoda_config.json"
+  ],
+  "cwd": "<prior-audit>\\external",
+  "status": "completed",
+  "started_utc": "2026-11-12T16:27:02.531445+00:00",
+  "binary_sha256": "3fc1d022f5f051f49be1d6263b72df62e17e1d0226b28b494517916d09c2fd38",
+  "pid": 34628,
+  "exit_code": 0,
+  "seconds": 11.484,
+  "log": "<prior-audit>\\external\\nanoda.log",
+  "log_sha256": "f45964488fdb7411ba81b2562097411ffcf1e7645956de526b670dd4aee7869f",
+  "log_length": 114
+}

@@ -1,0 +1,9 @@
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: parse done: 19255 fold records — 19247 declarations after the 8 built-in prelude records (8 stream copies of prelude records dropped) t=0.729s (parse 0.729s)
+con-ron: install 0/19255 basis t=0.729s
+con-ron: install 10000/19255 def CategoryTheory.Functor.op t=4.883s
+con-ron: install done: 19255/19255 declarations installed, 18723 checks pending t=12.466s (install 11.737s)
+con-ron: check 10000/18723 theorem List.dropLast_cons_cons t=19.786s
+con-ron: check done: 18723/18723 t=44.062s (check 31.596s)
+con-ron: done: parse 0.729s, install 11.737s, check 31.596s, 1 worker t=44.062s
+con-ron: accepted 19225 declarations (--verified)

@@ -1,0 +1,106 @@
+{
+  "commit": "279825a39739918a2553880a32ec9ab1dee1f780",
+  "started_utc": "2026-11-12T20:12:12.480316+00:00",
+  "method": "sequential source elaboration in local import dependency order",
+  "module_count": 250,
+  "binary_sha256": "cc24f20c0766382b971cd74cd67fb19413d16d01d6bc09ef90ed02c207cd6e1a",
+  "checks": [
+    {
+      "module": "Erdos597",
+      "source": "formal/single_file_conditional/Erdos597.lean",
+      "command": [
+        "<toolchain>\\bin\\lean.exe",
+        "-t",
+        "0",
+        "-j",
+        "1",
+        "-o",
+        "<repository>\\formal\\single_file_conditional\\.lake\\build\\lib\\lean\\Erdos597.olean",
+        "Erdos597.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 286.281,
+      "source_sha256": "7331541901b9fee98e60c7f7f88a496c8d4062d9efb2c6230b4903b1c203a447",
+      "log_sha256": "484a857afd1adff71f929a2c94af56ca8600fb7282f9993347b187d19820c81b",
+      "output_sha256": "572e84796e80d0c71c95c470307cb0d2e133fca05670e05e778b2be461d95dab"
+    },
+    {
+      "module": "Erdos597Object.SetCodes",
+      "source": "formal/object_language/Erdos597Object/SetCodes.lean",
+      "command": [
+        "<toolchain>\\bin\\lean.exe",
+        "-t",
+        "0",
+        "-j",
+        "1",
+        "-o",
+        "<repository>\\formal\\object_language\\.lake\\build\\lib\\lean\\Erdos597Object\\SetCodes.olean",
+        "Erdos597Object\\SetCodes.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 17.688,
+      "source_sha256": "5cacb41dce7e60eeac91a2a390d09dba43c52d87c3fe35683ba802ede16a1a60",
+      "log_sha256": "e28a526c4198dc2d79efdf4284df7f41e3710dc0b102edb3d0c929b027f58df8",
+      "output_sha256": "d12e7009f33ce04e14db01c62444a82bf6dc9fd6d01f5b94ac7685cf94cb065a"
+    },
+    {
+      "module": "Flypitch.PSetOrdinal",
+      "source": "formal/object_language/Flypitch/PSetOrdinal.lean",
+      "command": [
+        "<toolchain>\\bin\\lean.exe",
+        "-t",
+        "0",
+        "-j",
+        "1",
+        "-o",
+        "<repository>\\formal\\object_language\\.lake\\build\\lib\\lean\\Flypitch\\PSetOrdinal.olean",
+        "Flypitch\\PSetOrdinal.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 19.609,
+      "source_sha256": "03e51a04e67c86b1080764e526e73097aa25d6cb73d39b4233cf4372dd3f657c",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "ceda81dc237c02e7195d0d395ca57a99978a003db3836665e4c58e9d50b0657c"
+    },
+    {
+      "module": "Flypitch.BVTauto",
+      "source": "formal/object_language/Flypitch/BVTauto.lean",
+      "command": [
+        "<toolchain>\\bin\\lean.exe",
+        "-t",
+        "0",
+        "-j",
+        "1",
+        "-o",
+        "<repository>\\formal\\object_language\\.lake\\build\\lib\\lean\\Flypitch\\BVTauto.olean",
+        "Flypitch\\BVTauto.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 19.594,
+      "source_sha256": "7e8a4e1347ff9157d2fa89badc55e515f32d170070117c4115b906b3a9bf3c8d",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "71575137834d31af2b31f90717a0568f5b6a36cf151c0c22052c9292eec0b70d"
+    },
+    {
+      "module": "Flypitch.RegularOpenAlgebra",
+      "source": "formal/object_language/Flypitch/RegularOpenAlgebra.lean",
+      "command": [
+        "<toolchain>\\bin\\lean.exe",
+        "-t",
+        "0",
+        "-j",
+        "1",
+        "-o",
+        "<repository>\\formal\\object_language\\.lake\\build\\lib\\lean\\Flypitch\\RegularOpenAlgebra.olean",
+        "Flypitch\\RegularOpenAlgebra.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 18.828,
+      "source_sha256": "277e20c597ed54622722b38f7d9c648cec6a63c83d5dec7e0fdee1809ad88680",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "a5110f9fab2a77821423c73759bbc7f57710d76fe89fdadeca4a067d1bc3d91f"
+    }
+  ],
+  "status": "bounded_pilot_completed",
+  "completed_utc": "2026-11-12T20:18:14.499330+00:00"
+}

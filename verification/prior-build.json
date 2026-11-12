@@ -1,0 +1,14 @@
+{
+  "command": [
+    "<toolchain>\\bin\\lake.exe",
+    "build"
+  ],
+  "cwd": "<prior-workspace>\\object_language",
+  "started_utc": "2026-11-12T16:18:46.028037+00:00",
+  "pid": 11976,
+  "status": "completed",
+  "exit_code": 0,
+  "seconds": 253.5,
+  "log": "<prior-audit>\\bipartite_target_incremental_build.log",
+  "log_sha256": "599ce6547e87dc220346696fc9dcd303a963ddf76d65d482ec44ccac2007efec"
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "<toolchain>\\bin\\con-leche.exe",
+    "--verified",
+    "--jobs=1",
+    "--progress=10000",
+    "<prior-audit>\\external\\proof_terms.ndjson"
+  ],
+  "cwd": "<prior-audit>\\external",
+  "status": "completed",
+  "started_utc": "2026-11-12T16:27:14.088817+00:00",
+  "binary_sha256": "37ca6b277458808e6e3955322d827fa648721223d5711bfcfdcd00d91d29cf9f",
+  "pid": 19564,
+  "exit_code": 0,
+  "seconds": 38.703,
+  "log": "<prior-audit>\\external\\con_leche.log",
+  "log_sha256": "431a61e7c8bb27a1a5cc51097b88289befac6009c4c409f4de18bdf7a26d2450",
+  "log_length": 822
+}

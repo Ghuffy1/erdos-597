@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<toolchain>\\bin\\lean.exe",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-o",
+    ".lake/build/lib/lean/Flypitch/Collapse.olean",
+    "Flypitch/Collapse.lean"
+  ],
+  "cwd": "<repository>\\formal\\object_language",
+  "started_utc": "2026-11-12T20:20:21.728765+00:00",
+  "pid": 67016,
+  "status": "completed",
+  "exit_code": 0,
+  "seconds": 18.109,
+  "log": "<audit>\\updated_Flypitch_Collapse.log",
+  "log_sha256": "7730c86f979d801ebcbfe8bfde05e41d85229871ed49644b753cddee55c91315"
+}

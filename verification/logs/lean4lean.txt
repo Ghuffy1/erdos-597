@@ -1,0 +1,5 @@
+[anonymous]:thmDecl Flypitch.cohen_real.mk_bval: lean4lean took 15962
+[anonymous]:thmDecl Erdos597Object.CodedMartinModel.final_coded_martin: lean4lean took 14563
+[anonymous]:thmDecl Erdos597Object.BooleanGoodSupport.good_or_blue_oriented: lean4lean took 14410
+[anonymous]:thmDecl _private.Flypitch.ForcingCH.0.Flypitch.collapse_algebra.reflectFunction_check_subset_original: lean4lean took 4116
+checked 19226 declarations

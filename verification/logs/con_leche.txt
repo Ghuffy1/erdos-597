@@ -1,0 +1,9 @@
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-leche: parse done: 19255 fold records — 19247 declarations after the 8 built-in prelude records (8 stream copies of prelude records dropped) t=0.9s (parse 0.9s)
+con-leche: install 0/19255 basis block ConLeche.BasisKind.eqK t=0.9s
+con-leche: install 10000/19255 def CategoryTheory.Functor.op t=4.3s
+con-leche: install done: 19255/19255 declarations installed, 18723 checks pending t=10.5s (install 9.5s)
+con-leche: check 10000/18723 theorem List.dropLast_cons_cons t=17.6s
+con-leche: check done: 18723/18723 t=38.4s (check 27.8s)
+con-leche: done: parse 0.9s, install 9.5s, check 27.8s, 1 worker t=38.4s
+con-leche: accepted 19225 declarations (--verified)

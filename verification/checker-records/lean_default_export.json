@@ -1,0 +1,18 @@
+{
+  "command": [
+    "<toolchain>\\bin\\leanchecker.exe",
+    "--silent",
+    "--from-export",
+    "<prior-audit>\\external\\proof_terms.ndjson"
+  ],
+  "cwd": "<prior-audit>\\external",
+  "status": "completed",
+  "started_utc": "2026-11-12T16:28:37.440665+00:00",
+  "binary_sha256": "f9e7fe9279dbd106af8258bc1b1d05be3a93fc44c65620847d3d4ad3b8951ccc",
+  "pid": 52976,
+  "exit_code": 0,
+  "seconds": 37.578,
+  "log": "<prior-audit>\\external\\lean_default_export.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log_length": 0
+}
